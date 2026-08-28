@@ -1,11 +1,8 @@
 name: team-ram-durham
-version: 1.0.0
+version: 1.0.1
 description: Team RAM and Team Durham agents and skills for Hermes — personas as slash commands, bundled skills, and Allura Brain memory wiring.
 license: MIT
 homepage: https://github.com/Allura-Ecosystem
 tags: [agents, team-ram, team-durham, allura, memory, orchestration]
-provides_tools:
-  - team_ram_route
-  - team_durham_route
 provides_hooks:
   - post_tool_call

@@ -15,25 +15,37 @@ hermes plugins enable team-ram-durham
 
 - **24 personas as slash commands** — `/brooks`, `/woz`, `/scout`, `/jobs`,
   `/pike`, `/fowler`, `/bellard`, `/carmack`, `/knuth`, `/hightower`,
-  `/bahari`, plus the 13 Team Durham personas. Each injects the canonical role
-  card as the governing instruction.
-- **222 bundled skills** — all Team RAM and Team Durham `SKILL.md` files,
+  `/bahari`, plus the 13 Team Durham personas. Each command launches an isolated
+  Hermes worker through `delegate_task`, with the canonical role card and a
+  Hermes-specific runtime adapter.
+- **219 bundled skills** — the valid Team RAM and Team Durham `SKILL.md` files,
   loaded as `plugin:team-ram-durham-<skill>`.
-- **Allura Brain wiring** — the role cards carry the
-  `allura-brain__memory_search` / `memory_add` protocol, and a
-  `post_tool_call` hook logs tool usage for the audit trail.
+- **Allura Brain adapter** — workers are instructed to use Hermes' configured
+  `mcp_allura_brain_*` tools through `https://mcp.faithmeats.org/mcp`; LAN and
+  private-IP service paths are forbidden.
 
 ## Layout
 
 ```
 team-ram-durham/
-├── plugin.yaml          # manifest (v2)
+├── plugin.yaml          # Hermes-compatible manifest
 ├── __init__.py          # register(ctx) — personas + skills + hook
 ├── agents/
 │   ├── ram/             # 11 Team RAM role cards
 │   └── durham/          # 13 Team Durham role cards
-└── skills/              # 222 bundled SKILL.md files
+└── skills/              # 219 registered SKILL.md files
 ```
+
+## Usage
+
+```text
+/brooks Design a bounded execution harness
+/scout Map this repository and return evidence paths
+/brand-orchestrator Create a governed brand-work plan
+```
+
+The command returns a dispatch acknowledgment immediately. The isolated worker's
+result re-enters the conversation when it completes.
 
 ## Source
 
