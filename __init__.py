@@ -98,7 +98,7 @@ def _register_skills(ctx) -> int:
             continue
         # ctx.register_skill(name, path) namespaces as plugin:skill
         try:
-            ctx.register_skill(skill_dir.name, str(skill_dir))
+            ctx.register_skill(skill_dir.name, skill_dir)
             count += 1
         except Exception as error:  # noqa: BLE001 - one bad skill must not block the rest
             logger.warning("team-ram-durham: failed to register skill %s: %s", skill_dir.name, error)
