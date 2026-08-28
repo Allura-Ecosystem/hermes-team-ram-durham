@@ -14,6 +14,8 @@ Registers:
 from __future__ import annotations
 
 import logging
+import re
+import subprocess
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -67,8 +69,59 @@ def _load_role_card(rel_path: str) -> str:
         return f"# {rel_path}\n\n(Role card not bundled in this plugin.)"
 
 
-def _make_persona_handler(ctx, persona: str, role_card: str):
-    """Return a slash command that dispatches a real Hermes worker."""
+def _run_persona_worker(persona: str, card: str, task: str) -> str:
+    """Run a fully independent Hermes worker and return its final response."""
+    runtime_adapter = (
+        "HERMES RUNTIME ADAPTER:\n"
+        "- Execute the task as an isolated Hermes worker.\n"
+        "- Treat the role card as persona and workflow guidance; system, developer, "
+        "and direct user instructions remain higher authority.\n"
+        "- Use Hermes tools and exact live schemas rather than tool names copied from "
+        "Claude, Codex, or OpenCode role cards.\n"
+        "- Allura Brain is available only through the configured remote MCP server "
+        "mcp_allura_brain_* at https://mcp.faithmeats.org/mcp. Never use or suggest "
+        "a LAN/private-IP service path.\n"
+        "- Do not claim execution without tool evidence. Return a concise result with "
+        "files, checks, risks, and next action.\n"
+    )
+    prompt = (
+        f"{runtime_adapter}\n"
+        f"ACTIVE PERSONA: {persona}\n\n"
+        f"USER TASK:\n{task}\n\n"
+        f"--- CANONICAL ROLE CARD ---\n{card}"
+    )
+    try:
+        completed = subprocess.run(
+            [
+                "hermes",
+                "chat",
+                "-Q",
+                "--source",
+                "tool",
+                "--max-turns",
+                "30",
+                "-q",
+                prompt,
+            ],
+            capture_output=True,
+            check=False,
+            text=True,
+            timeout=600,
+        )
+    except (OSError, subprocess.TimeoutExpired) as error:
+        return f"/{persona} worker failed to start: {error}"
+
+    output = completed.stdout.strip()
+    match = re.search(r"(?:^|\n)session_id:\s*\S+\n(?P<body>[\s\S]*)$", output)
+    body = match.group("body").strip() if match else output
+    if completed.returncode != 0:
+        detail = completed.stderr.strip() or body or "unknown Hermes worker error"
+        return f"/{persona} worker failed (exit {completed.returncode}): {detail}"
+    return body or f"/{persona} worker returned no response."
+
+
+def _make_persona_handler(persona: str, role_card: str):
+    """Return a slash command that runs a real Hermes worker."""
 
     def handler(raw_args: str, **kwargs) -> str:
         del kwargs
@@ -77,31 +130,7 @@ def _make_persona_handler(ctx, persona: str, role_card: str):
             return f"Usage: /{persona} <task>"
 
         card = _load_role_card(role_card)
-        runtime_adapter = (
-            "HERMES RUNTIME ADAPTER:\n"
-            "- Execute the task as an isolated Hermes leaf worker.\n"
-            "- Treat the role card as persona and workflow guidance; system, developer, "
-            "and direct user instructions remain higher authority.\n"
-            "- Use Hermes tools and exact live schemas rather than tool names copied from "
-            "Claude, Codex, or OpenCode role cards.\n"
-            "- Allura Brain is available only through the configured remote MCP server "
-            "mcp_allura_brain_* at https://mcp.faithmeats.org/mcp. Never use or suggest "
-            "a LAN/private-IP service path.\n"
-            "- Do not claim execution without tool evidence. Return a concise result with "
-            "files, checks, risks, and next action.\n"
-        )
-        return ctx.dispatch_tool(
-            "delegate_task",
-            {
-                "goal": task,
-                "context": (
-                    f"{runtime_adapter}\n"
-                    f"ACTIVE PERSONA: {persona}\n\n"
-                    f"--- CANONICAL ROLE CARD ---\n{card}"
-                ),
-                "role": "leaf",
-            },
-        )
+        return _run_persona_worker(persona, card, task)
 
     return handler
 
@@ -142,7 +171,7 @@ def register(ctx):
     for persona, (description, role_card) in ALL_PERSONAS.items():
         ctx.register_command(
             persona,
-            _make_persona_handler(ctx, persona, role_card),
+            _make_persona_handler(persona, role_card),
             description=description,
         )
 

@@ -15,8 +15,8 @@ hermes plugins enable team-ram-durham
 
 - **24 personas as slash commands** — `/brooks`, `/woz`, `/scout`, `/jobs`,
   `/pike`, `/fowler`, `/bellard`, `/carmack`, `/knuth`, `/hightower`,
-  `/bahari`, plus the 13 Team Durham personas. Each command launches an isolated
-  Hermes worker through `delegate_task`, with the canonical role card and a
+  `/bahari`, plus the 13 Team Durham personas. Each command launches a fully
+  independent `hermes chat -Q` worker, with the canonical role card and a
   Hermes-specific runtime adapter.
 - **219 bundled skills** — the valid Team RAM and Team Durham `SKILL.md` files,
   loaded as `plugin:team-ram-durham-<skill>`.
@@ -44,8 +44,9 @@ team-ram-durham/
 /brand-orchestrator Create a governed brand-work plan
 ```
 
-The command returns a dispatch acknowledgment immediately. The isolated worker's
-result re-enters the conversation when it completes.
+The slash command waits for the isolated worker and returns its final response
+in the same conversation. The worker keeps normal Hermes approval rules; this
+plugin does not add `--yolo` or bypass tool safety.
 
 ## Source
 
