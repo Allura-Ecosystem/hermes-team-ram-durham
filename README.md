@@ -1,6 +1,6 @@
 # Team RAM + Team Durham for Hermes
 
-Native Hermes plugin **1.1.0**: 24 role definitions and 239 namespaced skills,
+Native Hermes plugin **1.1.1**: 24 role definitions and 239 namespaced skills,
 using the active conversation's model, context and tools. Two entry workflows
 bring the total to 241 registered skills. Durham has 12 specialist roles plus
 `openagent`, its compatibility fallback; RAM has 11 loadable personas.
@@ -50,7 +50,7 @@ kept separate, including skills with the same name.
 
 - Removed a fresh `hermes chat` process for every persona command. Work retains
   the active conversation, configured model and context; no guessed model IDs.
-- Updated role/skill bundles from pinned Team RAM 0.5.0 and Durham 0.4.0 sources.
+- Updated role/skill bundles from pinned Team RAM 0.5.1 and Durham 0.4.1 sources.
 - Added quick/standard/sensitive routing and reuse of context that still matches
   the task, project, tenant, revision and authority. Review remains risk-based.
 - Fixed skill registration to provide `SKILL.md` files instead of directories.
@@ -81,18 +81,34 @@ host-supported restricted context or report the missing capability.
 
 ## Install
 
-Published repository entry point (the remote may still serve 1.0.2 until the
-1.1.0 release is published):
+Version 1.1.1 is published on the
+[`codex/adaptive-hermes-teams` branch](https://github.com/Allura-Ecosystem/hermes-team-ram-durham/tree/codex/adaptive-hermes-teams),
+not the default branch. The GitHub shorthand installs the remote default branch
+and must not be treated as an installation of this update.
+
+Clone the upgrade branch and review its commit and files first:
 
 ```bash
-hermes plugins install Allura-Ecosystem/hermes-team-ram-durham
+git clone --branch codex/adaptive-hermes-teams --single-branch \
+  https://github.com/Allura-Ecosystem/hermes-team-ram-durham.git \
+  ./hermes-team-ram-durham
+```
+
+For that reviewed, committed local checkout, the current Hermes CLI accepts a
+Git file URL. From its parent directory:
+
+```bash
+reviewed_checkout="$PWD/hermes-team-ram-durham"
+hermes plugins install "file://$reviewed_checkout" --no-enable
 hermes plugins enable team-ram-durham
 ```
 
-For a reviewed, committed local checkout, install from its Git file URL in a
-staging Hermes home first. Retain an existing installation as a rollback copy
-before replacing it. Do not use `--force` on a modified checkout without reviewing
-and preserving those changes. Restart Hermes after replacing plugin files.
+The installer clones the local repository's committed HEAD; it does not include
+uncommitted edits. A URL fragment selects a plugin subdirectory, not a branch.
+Validate in a staging Hermes home first. Retain an existing installation as a
+rollback copy before replacing it. Do not use `--force` on a modified installation
+without reviewing and preserving those changes. Restart Hermes after replacing
+plugin files.
 
 ## Canonical sources and updates
 

@@ -3,8 +3,8 @@
   "sources": {
     "ram": {
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "commit": "89c0999a4d8490607fb65c406d21ebc3720edcac",
-      "version": "0.5.0",
+      "commit": "42dbd25f01539b5296ae636871ad032b61267c43",
+      "version": "0.5.1",
       "defaultDirectory": "../allura-team-ram",
       "mappings": [
         {
@@ -28,8 +28,8 @@
     },
     "durham": {
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
-      "commit": "f5c834b92a92be206977849dc2e2873b552971be",
-      "version": "0.4.0",
+      "commit": "a6fd21f3855be2ff9b701d79f0554ac57d09047f",
+      "version": "0.4.1",
       "defaultDirectory": "../team-durham",
       "mappings": [
         {

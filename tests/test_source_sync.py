@@ -24,7 +24,7 @@ def make_source(tmp_path):
     repo.mkdir()
     run(repo, 'init', '-q')
     run(repo, 'remote', 'add', 'origin', REMOTE)
-    (repo / 'package.json').write_text(json.dumps({'version': '0.5.0', 'files': ['agents/**', '.opencode/skills/**']}))
+    (repo / 'package.json').write_text(json.dumps({'version': '0.5.1', 'files': ['agents/**', '.opencode/skills/**']}))
     (repo / 'agents').mkdir()
     (repo / 'agents/brooks.md').write_text('# Brooks\nmodel: inherit\n')
     for name in ('review', 'figma-create-new-file'):
@@ -33,7 +33,7 @@ def make_source(tmp_path):
         disabled = 'disable-model-invocation: true\n' if name == 'figma-create-new-file' else ''
         (skill / 'SKILL.md').write_text(f'---\nname: {name}\n{disabled}---\n')
     (repo / '.opencode/skills/review/evidence.txt').write_text('public evidence')
-    locks = {'schemaVersion': 1, 'sources': {'ram': {'repository': REMOTE, 'version': '0.5.0', 'commit': commit(repo), 'mappings': [{'source': 'agents', 'destination': 'agents/ram'}, {'source': '.opencode/skills', 'destination': 'skills/ram'}], 'exclude': ['.opencode/skills/figma-create-new-file']}}}
+    locks = {'schemaVersion': 1, 'sources': {'ram': {'repository': REMOTE, 'version': '0.5.1', 'commit': commit(repo), 'mappings': [{'source': 'agents', 'destination': 'agents/ram'}, {'source': '.opencode/skills', 'destination': 'skills/ram'}], 'exclude': ['.opencode/skills/figma-create-new-file']}}}
     return (repo, locks)
 
 class SourceSyncTests(unittest.TestCase):
