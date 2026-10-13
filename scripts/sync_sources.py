@@ -179,7 +179,8 @@ def check_bundle(root: Path, outputs: dict) -> list[str]:
         path = root / name
         if name not in actual or path.is_symlink() or not path.is_file():
             errors.append(f"missing or unsafe generated file: {name}")
-        elif path.read_bytes() != content or (path.stat().st_mode & 0o777) != mode:
+        # Git preserves executable status, not group-write bits or clone umask.
+        elif path.read_bytes() != content or bool(path.stat().st_mode & 0o111) != bool(mode & 0o111):
             errors.append(f"generated file differs: {name}")
     return errors
 

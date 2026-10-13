@@ -74,6 +74,17 @@ class SourceSyncTests(unittest.TestCase):
         self.assertIn('generated file differs: skills/ram/review/evidence.txt', sync.check_bundle(target, outputs))
         self.assertEqual((target / '__init__.py').read_text(), 'owned by runtime maintainer')
 
+    def test_clone_umask_is_accepted_but_executable_drift_is_rejected(self):
+        repo, locks = self.source
+        outputs = sync.build_bundle(locks, {'ram': repo})
+        target = self.tmp_path / 'bundle'
+        sync.write_bundle(target, outputs)
+        path = target / 'skills/ram/review/evidence.txt'
+        path.chmod(0o664)
+        self.assertEqual(sync.check_bundle(target, outputs), [])
+        path.chmod(0o775)
+        self.assertIn('generated file differs: skills/ram/review/evidence.txt', sync.check_bundle(target, outputs))
+
     def test_internal_file_symlink_is_materialized_with_provenance(self):
         repo, locks = self.source
         (repo / '.opencode/skills/review/linked.txt').symlink_to('evidence.txt')

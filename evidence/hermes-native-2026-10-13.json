@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "date": "2026-10-13",
   "checks": {
-    "nativeHermesSdk": {"runner": "Hermes virtualenv Python unittest", "passed": 27, "skipped": 0},
+    "nativeHermesSdk": {"runner": "Hermes virtualenv Python unittest", "passed": 28, "skipped": 0},
     "roles": 24,
     "commands": 26,
     "registeredSkillFiles": 241,
