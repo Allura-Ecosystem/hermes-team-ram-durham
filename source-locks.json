@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "ram": {
+      "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
+      "commit": "89c0999a4d8490607fb65c406d21ebc3720edcac",
+      "version": "0.5.0",
+      "defaultDirectory": "../allura-team-ram",
+      "mappings": [
+        {
+          "source": "agents",
+          "destination": "agents/ram"
+        },
+        {
+          "source": ".opencode/skills",
+          "destination": "skills/ram"
+        },
+        {
+          "source": ".opencode/contracts/adaptive-workflow.md",
+          "destination": "policies/ram/adaptive-workflow.md"
+        }
+      ],
+      "exclude": [
+        ".opencode/skills/figma-create-new-file",
+        ".opencode/skills/skill-creator/scripts/__pycache__"
+      ],
+      "exclusionReason": "Preserve the canonical invocation-disabled Figma skill restriction; omit committed Python runtime bytecode."
+    },
+    "durham": {
+      "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
+      "commit": "f5c834b92a92be206977849dc2e2873b552971be",
+      "version": "0.4.0",
+      "defaultDirectory": "../team-durham",
+      "mappings": [
+        {
+          "source": "agents",
+          "destination": "agents/durham"
+        },
+        {
+          "source": "skills",
+          "destination": "skills/durham"
+        },
+        {
+          "source": "governance",
+          "destination": "policies/durham/governance"
+        },
+        {
+          "source": "contracts",
+          "destination": "policies/durham/contracts"
+        }
+      ],
+      "exclude": []
+    }
+  }
+}
