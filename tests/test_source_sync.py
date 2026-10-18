@@ -44,6 +44,21 @@ class SourceSyncTests(unittest.TestCase):
         self.tmp_path = Path(temporary.name)
         self.source = make_source(self.tmp_path)
 
+    def test_individual_public_agent_mapping_does_not_export_retired_role(self):
+        repo, locks = self.source
+        (repo / 'agents/retired.md').write_text('not a public role')
+        (repo / 'package.json').write_text(json.dumps({
+            'version': '0.5.1', 'files': ['agents/brooks.md', '.opencode/skills/**']}))
+        lock = locks['sources']['ram']
+        lock['commit'] = commit(repo)
+        with self.assertRaisesRegex(ValueError, 'source root is not public: agents'):
+            sync.build_bundle(locks, {'ram': repo})
+        lock['mappings'][0] = {'source': 'agents/brooks.md',
+                              'destination': 'agents/ram/brooks.md'}
+        outputs = sync.build_bundle(locks, {'ram': repo})
+        self.assertIn('agents/ram/brooks.md', outputs)
+        self.assertNotIn('agents/ram/retired.md', outputs)
+
     def test_dirty_worktree_is_ignored_and_assets_are_namespaced(self):
         repo, locks = self.source
         original = sync.build_bundle(locks, {'ram': repo})

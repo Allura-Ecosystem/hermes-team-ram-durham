@@ -3,16 +3,52 @@
   "sources": {
     "ram": {
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "commit": "42dbd25f01539b5296ae636871ad032b61267c43",
-      "version": "0.5.1",
+      "commit": "440882e8ff47ae0c69ce85d86427a0b7a6deaa25",
+      "version": "0.6.1-persona.20261018",
       "defaultDirectory": "../allura-team-ram",
       "mappings": [
         {
-          "source": "agents",
-          "destination": "agents/ram"
+          "source": "agents/brooks.md",
+          "destination": "agents/ram/brooks.md"
         },
         {
-          "source": ".opencode/skills",
+          "source": "agents/woz.md",
+          "destination": "agents/ram/woz.md"
+        },
+        {
+          "source": "agents/jobs.md",
+          "destination": "agents/ram/jobs.md"
+        },
+        {
+          "source": "agents/scout.md",
+          "destination": "agents/ram/scout.md"
+        },
+        {
+          "source": "agents/pike.md",
+          "destination": "agents/ram/pike.md"
+        },
+        {
+          "source": "agents/fowler.md",
+          "destination": "agents/ram/fowler.md"
+        },
+        {
+          "source": "agents/bellard.md",
+          "destination": "agents/ram/bellard.md"
+        },
+        {
+          "source": "agents/carmack.md",
+          "destination": "agents/ram/carmack.md"
+        },
+        {
+          "source": "agents/knuth.md",
+          "destination": "agents/ram/knuth.md"
+        },
+        {
+          "source": "agents/hightower.md",
+          "destination": "agents/ram/hightower.md"
+        },
+        {
+          "source": "skills",
           "destination": "skills/ram"
         },
         {
@@ -20,16 +56,12 @@
           "destination": "policies/ram/adaptive-workflow.md"
         }
       ],
-      "exclude": [
-        ".opencode/skills/figma-create-new-file",
-        ".opencode/skills/skill-creator/scripts/__pycache__"
-      ],
-      "exclusionReason": "Preserve the canonical invocation-disabled Figma skill restriction; omit committed Python runtime bytecode."
+      "exclude": []
     },
     "durham": {
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
-      "commit": "a6fd21f3855be2ff9b701d79f0554ac57d09047f",
-      "version": "0.4.1",
+      "commit": "c15b9fa15428cae50a2e06715a327296c19a3633",
+      "version": "0.4.2-persona.20261018",
       "defaultDirectory": "../team-durham",
       "mappings": [
         {

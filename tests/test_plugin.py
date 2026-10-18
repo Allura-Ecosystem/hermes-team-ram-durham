@@ -43,14 +43,37 @@ class PluginTests(unittest.TestCase):
         PLUGIN.register(self.ctx)
 
     def test_registration_avoids_unprefixed_collisions_and_uses_skill_files(self):
-        self.assertEqual(len(self.ctx.commands), 26)
+        self.assertEqual(len(self.ctx.commands), 19)
         self.assertNotIn('brooks', self.ctx.commands)
         self.assertIn('ram-brooks', self.ctx.commands)
         self.assertIn('durham-qa-reviewer', self.ctx.commands)
-        self.assertIn('ram-context7', self.ctx.skills)
+        self.assertIn('ram-allura-menu', self.ctx.skills)
         self.assertIn('durham-context7', self.ctx.skills)
-        self.assertNotEqual(self.ctx.skills['ram-context7'], self.ctx.skills['durham-context7'])
+        self.assertNotEqual(self.ctx.skills['ram-allura-memory-skill'], self.ctx.skills['durham-allura-memory-skill'])
         self.assertNotIn('ram-figma-create-new-file', self.ctx.skills)
+
+    def test_public_menu_routes_and_retired_exports(self):
+        expected = {'allura-memory-skill', 'allura-menu', 'code-review',
+                    'multi-search', 'party-mode', 'roundtable',
+                    'systematic-debugging-memory', 'team-ram-cowork',
+                    'team-ram-doctor', 'team-ram-setup'}
+        self.assertEqual({name.removeprefix('ram-') for name in self.ctx.skills
+                          if name.startswith('ram-')}, expected)
+        menu = self.ctx.skills['ram-allura-menu'].read_text()
+        for command in ('Work', 'Rehydrate', 'Research', 'Council', 'Party',
+                        'Debug', 'Review', 'Setup', 'Doctor'):
+            self.assertIn(command, menu)
+        for team, role in [('ram', 'bahari'), ('durham', 'openagent'),
+                           ('durham', 'evidence-collector')]:
+            self.assertNotIn(f'{team}-{role}', self.ctx.commands)
+            result = json.loads(PLUGIN.team_tool({'team': team, 'role': role}))
+            self.assertEqual(result['status'], 'error')
+        result = json.loads(PLUGIN.team_tool({'team': 'ram', 'task': 'activate'}))
+        self.assertIn('team-ram-durham:ram-allura-menu', result['instructions'])
+        self.assertIn('recommend the next applicable step', result['instructions'])
+        self.assertIn('Hermes Setup and Doctor override', result['instructions'])
+        self.assertIn(str(ROOT / 'scripts/doctor.py'), result['instructions'])
+        self.assertIn('If shell/Python is unavailable', result['instructions'])
 
     def test_command_queues_exact_task_in_active_session_once(self):
         task = 'Review file names; $(echo literal) stays a task string'

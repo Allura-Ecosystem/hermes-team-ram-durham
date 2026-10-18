@@ -6,6 +6,7 @@ network calls. Persona guidance does not change the host's tool permissions.
 from __future__ import annotations
 
 import json
+import shlex
 from pathlib import Path
 from typing import Any
 
@@ -15,13 +16,13 @@ TEAMS = {
     "ram": {
         "chair": "brooks",
         "group_id": "allura-system",
-        "roles": ("brooks", "woz", "jobs", "scout", "pike", "fowler", "bellard", "carmack", "knuth", "hightower", "bahari"),
+        "roles": ("brooks", "woz", "jobs", "scout", "pike", "fowler", "bellard", "carmack", "knuth", "hightower"),
         "policy": "policies/ram/adaptive-workflow.md",
     },
     "durham": {
         "chair": "brand-orchestrator",
         "group_id": "allura-team-durham",
-        "roles": ("brand-orchestrator", "brand-strategist", "copywriter", "visual-director", "data-analyst", "evidence-collector", "qa-reviewer", "reality-checker", "scout-recon", "workflow-architect", "agentic-trust-architect", "brand-kit-builder", "openagent"),
+        "roles": ("brand-orchestrator", "brand-strategist", "copywriter", "visual-director", "data-analyst", "qa-reviewer", "brand-kit-builder"),
         "policy": "policies/durham/governance/adaptive-workflow.md",
     },
 }
@@ -43,6 +44,24 @@ def _body(text: str) -> str:
 
 
 def _adapter(team: str) -> str:
+    menu = (
+        'On RAM activation or explicit menu/help/MH requests, load '
+        'skill_view(name="team-ram-durham:ram-allura-menu"), show the canonical '
+        'menu in chat, and recommend the next applicable step for the task. '
+        'Menu entries are skill routes, not Hermes slash commands. '
+        'Do not repeat the menu during ordinary work.\n'
+        'Hermes Setup and Doctor override the canonical Bun/source-checkout '
+        'diagnostic command: run this read-only installed-bundle check with the '
+        'host shell tool: python3 '
+        + shlex.quote(str(ROOT / 'scripts' / 'doctor.py')) + '. '
+        'It needs no Bun, source checkout, network, configuration or credentials. '
+        'If shell/Python is unavailable, report diagnosis unavailable and show '
+        'the command; never claim it ran. Setup uses the same check and explains '
+        'any missing capability; it does not install or edit configuration. '
+        'Report Brain separately: unverified unless an exposed governed tool '
+        'returns a scoped receipt.\n'
+        if team == "ram" else ""
+    )
     tenant = TEAMS[team]["group_id"]
     return f"""HERMES ADAPTER — active conversation, no new worker
 Use this selected persona as task guidance, subordinate to the host's system,
@@ -71,7 +90,7 @@ Use actual available tools rather than copied Claude/Codex/OpenCode tool names.
 Respect read-only reviewer roles: report findings and let a producer fix them.
 This plugin does not enforce a per-role tool sandbox; any task requiring enforced
 isolation must use a host-supported restricted context, or report that limitation.
-Finish authorized work with artifact paths, meaningful checks and limitations.
+{menu}Finish authorized work with artifact paths, meaningful checks and limitations.
 Persist one concise substantive outcome only if a governed Brain write succeeds.
 """
 

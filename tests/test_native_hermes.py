@@ -21,13 +21,11 @@ PLUGIN_ROOT = Path(__file__).resolve().parents[1]
 SDK_AVAILABLE = importlib.util.find_spec("hermes_cli") is not None
 RAM_ROLES = {
     "brooks", "woz", "jobs", "scout", "pike", "fowler", "bellard",
-    "carmack", "knuth", "hightower", "bahari",
+    "carmack", "knuth", "hightower",
 }
 DURHAM_ROLES = {
     "brand-orchestrator", "brand-strategist", "copywriter", "visual-director",
-    "data-analyst", "evidence-collector", "qa-reviewer", "reality-checker",
-    "scout-recon", "workflow-architect", "agentic-trust-architect",
-    "brand-kit-builder", "openagent",
+    "data-analyst", "qa-reviewer", "brand-kit-builder",
 }
 
 
@@ -219,7 +217,7 @@ class NativeHermesTests(unittest.TestCase):
         }
         # Workflow entry points are separate from the canonical skill bundles.
         workflow_paths = {PLUGIN_ROOT / "workflows" / team / "SKILL.md" for team in ("ram", "durham")}
-        self.assertGreater(len(expected), 100, "Canonical skill bundles are missing")
+        self.assertEqual(len(expected), 87, "Canonical public skill bundles differ")
         self.assertTrue(set(expected) <= set(registered), "Qualified canonical skills missing")
         actual_paths = {item["path"] for item in registered.values()}
         self.assertTrue(workflow_paths <= actual_paths, "RAM/Durham entry workflows missing")

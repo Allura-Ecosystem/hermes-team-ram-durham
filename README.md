@@ -1,9 +1,9 @@
 # Team RAM + Team Durham for Hermes
 
-Native Hermes plugin **1.1.1**: 24 role definitions and 239 namespaced skills,
-using the active conversation's model, context and tools. Two entry workflows
-bring the total to 241 registered skills. Durham has 12 specialist roles plus
-`openagent`, its compatibility fallback; RAM has 11 loadable personas.
+Native Hermes plugin **1.2.0**: 17 public role definitions and 87 namespaced
+skills, using the active conversation's model, context and tools. Two entry
+workflows bring the total to 89 registered skills. RAM has ten public personas
+and ten public skills; Durham has seven specialist roles and 77 skills.
 
 ## Use
 
@@ -38,7 +38,7 @@ Skills are explicitly loaded with:
 ```text
 skill_view(name="team-ram-durham:ram")
 skill_view(name="team-ram-durham:durham")
-skill_view(name="team-ram-durham:ram-context7")
+skill_view(name="team-ram-durham:ram-allura-menu")
 skill_view(name="team-ram-durham:durham-brand-strategy")
 ```
 
@@ -46,21 +46,22 @@ Registered plugin skills are opt-in `skill_view` resources, not automatically
 created slash commands. Load only 1–3 relevant skills. Both teams' copies are
 kept separate, including skills with the same name.
 
-## What changed from 1.0.2
+## What changed in 1.2.0
 
-- Removed a fresh `hermes chat` process for every persona command. Work retains
-  the active conversation, configured model and context; no guessed model IDs.
-- Updated role/skill bundles from pinned Team RAM 0.5.1 and Durham 0.4.1 sources.
-- Added quick/standard/sensitive routing and reuse of context that still matches
-  the task, project, tenant, revision and authority. Review remains risk-based.
-- Fixed skill registration to provide `SKILL.md` files instead of directories.
-- Replaced bare `/brooks`, `/woz`, `/copywriter`, etc. with prefixed commands to
-  avoid collisions. For example `/brooks` becomes `/ram-brooks`.
-- Removed the debug-only hook previously described as an Allura audit trail.
-  This plugin makes no audit or memory-persistence claim without real receipts.
+- Refreshed immutable public sources to Team RAM `0.6.1-persona.20261018` and
+  Durham `0.4.2-persona.20261018`.
+- Exported RAM's ten public skill directories and ten individually allowlisted
+  agent files. Retired internal skills and roles are no longer registered.
+- Reduced Durham's roster to its seven current public role definitions.
+- Registered the compact canonical RAM menu as
+  `team-ram-durham:ram-allura-menu`. On activation or menu/help/MH requests, the
+  active agent displays it in chat and recommends the next applicable step.
+  These menu choices route to skills; they do not create new slash commands.
+- Retained native Hermes skill-file registration, conversation command injection,
+  and separate team tenant scopes. The memory provider remains a separate plugin.
 
-These changes remove process startup and unnecessary handoffs by design. No
-live-model latency, cost or quality improvement has yet been measured.
+The refresh uses committed source objects only; local source edits are excluded.
+No live-model latency, cost or quality improvement has been measured.
 
 ## Memory and authority
 
@@ -81,7 +82,7 @@ host-supported restricted context or report the missing capability.
 
 ## Install
 
-Version 1.1.1 is published on the
+The upgrade is maintained on the
 [`codex/adaptive-hermes-teams` branch](https://github.com/Allura-Ecosystem/hermes-team-ram-durham/tree/codex/adaptive-hermes-teams),
 not the default branch. The GitHub shorthand installs the remote default branch
 and must not be treated as an installation of this update.
@@ -110,6 +111,26 @@ rollback copy before replacing it. Do not use `--force` on a modified installati
 without reviewing and preserving those changes. Restart Hermes after replacing
 plugin files.
 
+## Setup and Doctor in Hermes
+
+Choose **Setup** or **Doctor** from the chat menu. The adapter supplies the
+absolute installed path to `python3 .../scripts/doctor.py` for the host shell.
+From the installed plugin directory, the same read-only check is:
+
+```bash
+python3 scripts/doctor.py
+```
+
+This Hermes command replaces the canonical skills' Bun/source-checkout diagnostic.
+It checks the manifest version format, declared roles, entry workflows, registration
+adapter, RAM public skill surface, source lock digest and all recorded resource
+hashes. It works without Git, source repositories, Bun, network or credentials.
+A failing check exits nonzero. It never installs or repairs anything. If the
+host lacks a shell or Python, the agent reports that limitation and shows the
+command. Brain remains separately unverified without a scoped live tool receipt.
+Recorded hashes prove local consistency, not remote authenticity or live runtime
+health. Setup explains any missing capability using this same diagnostic.
+
 ## Canonical sources and updates
 
 `source-locks.json` pins both standalone repositories. `agents/`, `skills/` and
@@ -125,8 +146,9 @@ Default source checkouts are adjacent `../allura-team-ram` and `../team-durham`.
 Use `--ram-source /path/to/repo --durham-source /path/to/repo` to override paths.
 Only committed Git objects at the pins are read; dirty worktrees are ignored.
 Origins, versions, export roots and links are validated. Sync does not fetch,
-install, alter runtime configuration, or write to Allura Brain. The invocation-
-disabled RAM Figma skill and Python cache files are excluded.
+install, alter runtime configuration, or write to Allura Brain. Only the current
+public RAM skill surface and individual public agent files are selected; retired
+internal roles and skill directories are not copied.
 
 ## Validate
 
