@@ -1,0 +1,46 @@
+{
+  "plugin": "team-ram-durham",
+  "version": "1.1.1",
+  "date": "2026-10-13",
+  "checks": {
+    "nativeHermesSdk": {
+      "runner": "Hermes virtualenv Python unittest",
+      "passed": 28,
+      "skipped": 0
+    },
+    "roles": 24,
+    "commands": 26,
+    "registeredSkillFiles": 241,
+    "generatedSourceAssets": 586,
+    "sourceParity": "passed",
+    "modelCalls": 0,
+    "networkCallsDuringTests": 0,
+    "cliQueue": "real PluginContext with application queue fixtures",
+    "gateway": "honest unsupported slash injection; allura_team guidance tool supported",
+    "memoryTools": "unavailable in build session; no search or write claimed",
+    "sourceVersions": {
+      "ram": "0.5.1",
+      "durham": "0.4.1"
+    },
+    "sourceCommits": {
+      "ram": "42dbd25f01539b5296ae636871ad032b61267c43",
+      "durham": "a6fd21f3855be2ff9b701d79f0554ac57d09047f"
+    }
+  },
+  "limits": [
+    "No live-model task, latency, cost, or quality benchmark was run.",
+    "Persona instructions do not enforce a per-role tool sandbox.",
+    "SDK warns about prompt patterns in the unchanged canonical Durham governance-sync skill.",
+    "Published on codex/adaptive-hermes-teams only; no default-branch merge or release tag."
+  ],
+  "docs": {
+    "context7Library": "/nousresearch/hermes-agent",
+    "topics": [
+      "PluginContext.register_tool",
+      "register_command",
+      "register_skill",
+      "inject_message"
+    ],
+    "authority": "Installed SDK behavior verified; command return text is not task execution."
+  }
+}

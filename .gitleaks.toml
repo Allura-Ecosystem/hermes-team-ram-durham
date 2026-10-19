@@ -1,0 +1,10 @@
+title = "Hermes teams secret scanning"
+[extend]
+useDefault = true
+[allowlist]
+description = "Non-secret Figma semantic identifiers in pinned Durham API examples; same exact allowances as its canonical source"
+regexTarget = "secret"
+regexes = [
+  '''^collection/(primitives|color|spacing)$''',
+  '''^primitive/blue/500$'''
+]

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "ram": {
+      "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
+      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "version": "0.6.2",
+      "defaultDirectory": "../allura-team-ram-menu-20261019",
+      "mappings": [
+        {
+          "source": "agents/brooks.md",
+          "destination": "agents/ram/brooks.md"
+        },
+        {
+          "source": "agents/woz.md",
+          "destination": "agents/ram/woz.md"
+        },
+        {
+          "source": "agents/jobs.md",
+          "destination": "agents/ram/jobs.md"
+        },
+        {
+          "source": "agents/scout.md",
+          "destination": "agents/ram/scout.md"
+        },
+        {
+          "source": "agents/pike.md",
+          "destination": "agents/ram/pike.md"
+        },
+        {
+          "source": "agents/fowler.md",
+          "destination": "agents/ram/fowler.md"
+        },
+        {
+          "source": "agents/bellard.md",
+          "destination": "agents/ram/bellard.md"
+        },
+        {
+          "source": "agents/carmack.md",
+          "destination": "agents/ram/carmack.md"
+        },
+        {
+          "source": "agents/knuth.md",
+          "destination": "agents/ram/knuth.md"
+        },
+        {
+          "source": "agents/hightower.md",
+          "destination": "agents/ram/hightower.md"
+        },
+        {
+          "source": "skills",
+          "destination": "skills/ram"
+        },
+        {
+          "source": ".opencode/contracts/adaptive-workflow.md",
+          "destination": "policies/ram/adaptive-workflow.md"
+        }
+      ],
+      "exclude": []
+    },
+    "durham": {
+      "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
+      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "version": "0.4.3",
+      "defaultDirectory": "../team-durham",
+      "mappings": [
+        {
+          "source": "agents",
+          "destination": "agents/durham"
+        },
+        {
+          "source": "skills",
+          "destination": "skills/durham"
+        },
+        {
+          "source": "governance",
+          "destination": "policies/durham/governance"
+        },
+        {
+          "source": "contracts",
+          "destination": "policies/durham/contracts"
+        }
+      ],
+      "exclude": []
+    },
+    "cowork": {
+      "repository": "https://github.com/Allura-Ecosystem/allura-plugins.git",
+      "commit": "cd43260b5d45a0415f862caadc9dbf7b3b954514",
+      "version": "0.4.0",
+      "packageDirectory": "allura-cowork",
+      "defaultDirectory": "../allura-persona-release-20261018",
+      "mappings": [
+        {
+          "source": "allura-cowork/skills/allura-menu",
+          "destination": "skills/cowork/allura-menu"
+        }
+      ],
+      "exclude": []
+    }
+  }
+}

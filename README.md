@@ -1,54 +1,190 @@
 # Team RAM + Team Durham for Hermes
 
-A native Hermes Agent plugin that brings the Team RAM and Team Durham agent
-teams into Hermes as slash commands, bundled skills, and Allura Brain memory
-wiring.
+Native Hermes plugin **1.3.0**: 17 public role definitions and 88 namespaced
+skills, using the active conversation's model, context and tools. Two entry
+workflows bring the total to 90 registered skills. RAM has ten public personas
+and ten public skills; Durham has seven specialist roles and 77 skills.
+
+## Use
+
+In interactive Hermes CLI:
+
+```text
+/ram Map this repository and implement the agreed fix
+/ram-woz Implement the approved change and validate it
+/ram-pike Review the interface; report findings only
+/durham Plan the brand work from our approved brief
+/durham-copywriter Refine this copy against the locked strategy
+```
+
+`/ram` selects Brooks; `/durham` selects the brand orchestrator. Role commands use
+`/ram-<role>` or `/durham-<role>`. They queue work in the current CLI conversation,
+not an independent worker. Existing host permissions and approvals still apply.
+
+For gateway/chat surfaces, send a normal message:
+
+> Use `allura_team` with team `durham`, role `copywriter`, and task “Refine the
+> approved homepage copy.” Continue with the result in this conversation.
+
+The tool loads the selected role and adaptive workflow; it does not execute the
+task or claim completion. The active model then performs the work using its
+available tools. The installed Hermes SDK cannot queue gateway turns from plugin
+slash commands, so those commands return **Task not started** with this fallback.
+No subprocess or detached worker is started. The `allura_teams` toolset must be
+available in the host's chosen tool configuration for model-facing tool use.
+
+Skills are explicitly loaded with:
+
+```text
+skill_view(name="team-ram-durham:ram")
+skill_view(name="team-ram-durham:durham")
+skill_view(name="team-ram-durham:ram-allura-menu")
+skill_view(name="team-ram-durham:durham-brand-strategy")
+```
+
+Registered plugin skills are opt-in `skill_view` resources, not automatically
+created slash commands. Load only 1–3 relevant skills. Both teams' copies are
+kept separate, including skills with the same name.
+
+## What changed in 1.3.0
+
+- Added the common seven-choice chat interaction from Allura Cowork 0.4.0.
+- Updated RAM 0.6.2 and Durham 0.4.3 owning menu sources, preserving their public
+  skill counts and domain routes under More.
+- Made Council's real delegation dependency and bounded loop stopping rules
+  explicit in native guidance. The adapter itself remains guidance loading.
+
+## Previous refresh in 1.2.0
+
+- Refreshed immutable public sources to Team RAM `0.6.1-persona.20261018` and
+  Durham `0.4.2-persona.20261018`.
+- Exported RAM's ten public skill directories and ten individually allowlisted
+  agent files. Retired internal skills and roles are no longer registered.
+- Reduced Durham's roster to its seven current public role definitions.
+- Registered the compact canonical RAM menu as
+  `team-ram-durham:ram-allura-menu`. On activation or menu/help/MH requests, the
+  active agent displays it in chat and recommends the next applicable step.
+  These menu choices route to skills; they do not create new slash commands.
+- Retained native Hermes skill-file registration, conversation command injection,
+  and separate team tenant scopes. The memory provider remains a separate plugin.
+
+The refresh uses committed source objects only; local source edits are excluded.
+No live-model latency, cost or quality improvement has been measured.
+
+## Memory and authority
+
+This is a standalone team plugin, separate from the Allura Brain memory provider.
+It neither changes `memory.provider` nor configures credentials or MCP servers.
+Memory operations preserve the authenticated project/task scope. RAM's
+`allura-system` and Durham's `allura-team-durham` are default hints requiring
+confirmation by the active project and credentials. Loading a Council role does
+not change the parent's validated group_id or authorization receipt. The guidance
+tool returns `default_group_id` and `scope_status: inherit_authenticated_task`;
+it does not assert tenant authorization. Never infer a tenant from a persona
+or fall back to an unrelated provider tenant.
+If the configured Brain cannot serve the team/project scope, report degraded
+local-only context and continue safe work. Persona names do not change the
+authenticated principal. Semantic promotion and external shipping retain human
+approval gates.
+
+Canonical role cards contain foreign-runtime examples. The Hermes adapter maps
+their resources to this bundle and requires actual host schemas. Personas and
+skills are instructions, **not enforced per-role tool sandboxes**. Read-only
+reviewers must report findings; where enforced isolation is required, use a
+host-supported restricted context or report the missing capability.
 
 ## Install
 
+The upgrade is maintained on the
+[`codex/adaptive-hermes-teams` branch](https://github.com/Allura-Ecosystem/hermes-team-ram-durham/tree/codex/adaptive-hermes-teams),
+not the default branch. The GitHub shorthand installs the remote default branch
+and must not be treated as an installation of this update.
+
+Clone the upgrade branch and review its commit and files first:
+
 ```bash
-hermes plugins install Allura-Ecosystem/hermes-team-ram-durham
+git clone --branch codex/adaptive-hermes-teams --single-branch \
+  https://github.com/Allura-Ecosystem/hermes-team-ram-durham.git \
+  ./hermes-team-ram-durham
+```
+
+For that reviewed, committed local checkout, the current Hermes CLI accepts a
+Git file URL. From its parent directory:
+
+```bash
+reviewed_checkout="$PWD/hermes-team-ram-durham"
+hermes plugins install "file://$reviewed_checkout" --no-enable
 hermes plugins enable team-ram-durham
 ```
 
-## What it provides
+The installer clones the local repository's committed HEAD; it does not include
+uncommitted edits. A URL fragment selects a plugin subdirectory, not a branch.
+Validate in a staging Hermes home first. Retain an existing installation as a
+rollback copy before replacing it. Do not use `--force` on a modified installation
+without reviewing and preserving those changes. Restart Hermes after replacing
+plugin files.
 
-- **24 personas as slash commands** — `/brooks`, `/woz`, `/scout`, `/jobs`,
-  `/pike`, `/fowler`, `/bellard`, `/carmack`, `/knuth`, `/hightower`,
-  `/bahari`, plus the 13 Team Durham personas. Each command launches a fully
-  independent `hermes chat -Q` worker, with the canonical role card and a
-  Hermes-specific runtime adapter.
-- **219 bundled skills** — the valid Team RAM and Team Durham `SKILL.md` files,
-  loaded as `plugin:team-ram-durham-<skill>`.
-- **Allura Brain adapter** — workers are instructed to use Hermes' configured
-  `mcp_allura_brain_*` tools through `https://mcp.faithmeats.org/mcp`; LAN and
-  private-IP service paths are forbidden.
+## Setup and Doctor in Hermes
 
-## Layout
+Choose **Setup** or **Doctor** from the chat menu. The adapter supplies the
+absolute installed path to `python3 .../scripts/doctor.py` for the host shell.
+From the installed plugin directory, the same read-only check is:
 
-```
-team-ram-durham/
-├── plugin.yaml          # Hermes-compatible manifest
-├── __init__.py          # register(ctx) — personas + skills + hook
-├── agents/
-│   ├── ram/             # 11 Team RAM role cards
-│   └── durham/          # 13 Team Durham role cards
-└── skills/              # 219 registered SKILL.md files
+```bash
+python3 scripts/doctor.py
 ```
 
-## Usage
+This Hermes command replaces the canonical skills' Bun/source-checkout diagnostic.
+It checks the manifest version format, declared roles, entry workflows, registration
+adapter, RAM public skill surface, source lock digest and all recorded resource
+hashes. It works without Git, source repositories, Bun, network or credentials.
+A failing check exits nonzero. It never installs or repairs anything. If the
+host lacks a shell or Python, the agent reports that limitation and shows the
+command. Brain remains separately unverified without a scoped live tool receipt.
+Recorded hashes prove local consistency, not remote authenticity or live runtime
+health. Setup explains any missing capability using this same diagnostic.
 
-```text
-/brooks Design a bounded execution harness
-/scout Map this repository and return evidence paths
-/brand-orchestrator Create a governed brand-work plan
+## Canonical sources and updates
+
+`source-locks.json` pins both standalone repositories. `agents/`, `skills/` and
+`policies/` are generated; edit team behavior in its canonical repository.
+`SOURCE_PROVENANCE.json` records each exported path, source blob and SHA-256.
+
+```bash
+python3 scripts/sync_sources.py --check
+python3 scripts/sync_sources.py --sync
 ```
 
-The slash command waits for the isolated worker and returns its final response
-in the same conversation. The worker keeps normal Hermes approval rules; this
-plugin does not add `--yolo` or bypass tool safety.
+Default source checkouts are adjacent `../allura-team-ram` and `../team-durham`.
+Use `--ram-source /path/to/repo --durham-source /path/to/repo` to override paths.
+Only committed Git objects at the pins are read; dirty worktrees are ignored.
+Origins, versions, export roots and links are validated. Sync does not fetch,
+install, alter runtime configuration, or write to Allura Brain. Only the current
+public RAM skill surface and individual public agent files are selected; retired
+internal roles and skill directories are not copied.
 
-## Source
+## Validate
 
-- Team RAM: https://github.com/Allura-Ecosystem/allura-team-ram
-- Team Durham: https://github.com/Allura-Ecosystem/allura-plugins
+```bash
+python3 -m unittest discover -s tests -v
+python3 scripts/sync_sources.py --check
+```
+
+Run `tests/test_native_hermes.py` with the Python interpreter from the actual
+Hermes installation. It uses the real loader, tool registry, skill reader and
+command injection API in an isolated temporary Hermes home. On an interpreter
+without Hermes, those integration checks skip explicitly. Tests use no model
+calls, network requests or credentials; they do not certify live model outcomes.
+
+Official SDK reference: [Hermes plugin documentation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/developer-guide/plugins/index.md).
+
+## Chat menu
+
+Activation and an explicit menu request show the shared Allura choices: Next
+steps, Help with a prompt, Council, Work, Loop, Validate and More. Clear tasks
+execute directly. The bundled `cowork-allura-menu` skill is exported from an
+immutable Allura Cowork source pin and needs no extra plugin installation.
+Prompt help and bounded improvement loops work in the active conversation.
+Council depends on the host's actual delegation capability; loading multiple
+personas with `allura_team` does not execute independent specialists. Missing
+delegation yields an explicit limitation and a proposed Council brief.
