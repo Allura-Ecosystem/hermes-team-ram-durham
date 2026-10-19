@@ -95,15 +95,13 @@ host-supported restricted context or report the missing capability.
 
 ## Install
 
-The upgrade is maintained on the
-[`codex/adaptive-hermes-teams` branch](https://github.com/Allura-Ecosystem/hermes-team-ram-durham/tree/codex/adaptive-hermes-teams),
-not the default branch. The GitHub shorthand installs the remote default branch
-and must not be treated as an installation of this update.
+Version `1.3.0` is available from the default `main` branch. Its immutable
+source pins remain recorded in `source-locks.json`.
 
-Clone the upgrade branch and review its commit and files first:
+Clone `main` and review its commit and files first:
 
 ```bash
-git clone --branch codex/adaptive-hermes-teams --single-branch \
+git clone --branch main --single-branch \
   https://github.com/Allura-Ecosystem/hermes-team-ram-durham.git \
   ./hermes-team-ram-durham
 ```
@@ -126,7 +124,7 @@ plugin files.
 
 ## Setup and Doctor in Hermes
 
-Choose **Setup** or **Doctor** from the chat menu. The adapter supplies the
+Choose **More**, then **Setup** or **Doctor** from the chat menu. The adapter supplies the
 absolute installed path to `python3 .../scripts/doctor.py` for the host shell.
 From the installed plugin directory, the same read-only check is:
 
