@@ -45,6 +45,23 @@ def _body(text: str) -> str:
 
 def _adapter(team: str) -> str:
     menu = (
+        'On activation or explicit menu/help/MH requests, load '
+        'skill_view(name="team-ram-durham:cowork-allura-menu"), show the seven '
+        'chat choices and recommend one next step with a reason and owner. '
+        'These are conversational choices, not extra slash commands. Clear tasks '
+        'proceed directly. Council needs actual supported specialist delegation; '
+        'allura_team only loads one persona and does not invoke Council. '
+        'For each selected Council participant, call allura_team with its team, '
+        'role and bounded question; the instructions result includes that full '
+        'source role under SELECTED ROLE. Pass the actual role guidance and '
+        'authorized task context into the host delegation tool using its observed '
+        'schema, if supported. guidance_loaded is not a delegation receipt. '
+        'If no delegation tool exists, disclose unavailable Council and provide '
+        'a proposed brief. Selecting another team does not grant its tenant or '
+        'permit sharing client context. A loop needs a goal, permitted actions, '
+        'completion evidence and explicit bound before execution.\n'
+    )
+    ram_diagnostics = (
         'On RAM activation or explicit menu/help/MH requests, load '
         'skill_view(name="team-ram-durham:ram-allura-menu"), show the canonical '
         'menu in chat, and recommend the next applicable step for the task. '
@@ -74,8 +91,16 @@ Choose quick, standard, or sensitive routing from the adaptive workflow; keep on
 accountable owner and reuse valid context for the same task, project, tenant,
 workspace revision and authority. Refresh affected dependencies when these change.
 Load local context first, then relevant Brain context through configured Hermes
-MCP tools if available. Every memory operation must explicitly use {tenant}; never
-fall back to a provider's default tenant or borrow another project's recall.
+MCP tools if available. Every memory operation must explicitly preserve the
+validated authenticated project/task scope. A team default ({tenant}) is only
+a hint, usable when the active project and credentials confirm that scope.
+Loading a Council role card never selects or changes a tenant. Pass the parent's
+validated group_id and authorization receipt unchanged into the delegate task;
+for a RAM parent authorized to allura-system, Durham participation still uses
+allura-system. Source role or skill defaults do not override that parent scope.
+Never fall back to a provider's default tenant or borrow another project's recall.
+If no task scope has been validated, do not infer one from the persona; disclose
+missing authorization and continue only with permitted supplied/local evidence.
 Use the authenticated host principal; a persona name grants no new permissions.
 If Brain cannot serve this scope, report degraded local-only context and continue
 safe work. Never claim a memory read/write, delegation, or validation without a
@@ -90,7 +115,7 @@ Use actual available tools rather than copied Claude/Codex/OpenCode tool names.
 Respect read-only reviewer roles: report findings and let a producer fix them.
 This plugin does not enforce a per-role tool sandbox; any task requiring enforced
 isolation must use a host-supported restricted context, or report that limitation.
-{menu}Finish authorized work with artifact paths, meaningful checks and limitations.
+{menu}{ram_diagnostics}Finish authorized work with artifact paths, meaningful checks and limitations.
 Persist one concise substantive outcome only if a governed Brain write succeeds.
 """
 
@@ -109,10 +134,11 @@ def _guidance(team: str, role: str, task: str) -> dict[str, Any]:
         "execution_started": False,
         "team": team,
         "role": selected,
-        "group_id": config["group_id"],
+        "default_group_id": config["group_id"],
+        "scope_status": "inherit_authenticated_task",
         "model": "inherit",
         "task": task,
-        "instructions": f"{_adapter(team)}\nADAPTIVE WORKFLOW\n{policy}\nSELECTED ROLE\n{card}",
+        "instructions": f"{_adapter(team)}\nALLURA CONVERSATION\n{_body(_read('skills/cowork/allura-menu/SKILL.md'))}\nADAPTIVE WORKFLOW\n{policy}\nSELECTED ROLE\n{card}",
         "entry_skill": f"{PLUGIN_NAME}:{team}",
     }
 
@@ -179,6 +205,8 @@ def register(ctx: Any) -> None:
         handler=team_tool,
         description="Team RAM and Durham role guidance",
     )
+    for path in sorted((ROOT / "skills" / "cowork").glob("*/SKILL.md")):
+        ctx.register_skill(f"cowork-{path.parent.name}", path)
     for team, config in TEAMS.items():
         ctx.register_skill(team, ROOT / "workflows" / team / "SKILL.md")
         for path in sorted((ROOT / "skills" / team).glob("*/SKILL.md")):

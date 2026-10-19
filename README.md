@@ -1,8 +1,8 @@
 # Team RAM + Team Durham for Hermes
 
-Native Hermes plugin **1.2.0**: 17 public role definitions and 87 namespaced
+Native Hermes plugin **1.3.0**: 17 public role definitions and 88 namespaced
 skills, using the active conversation's model, context and tools. Two entry
-workflows bring the total to 89 registered skills. RAM has ten public personas
+workflows bring the total to 90 registered skills. RAM has ten public personas
 and ten public skills; Durham has seven specialist roles and 77 skills.
 
 ## Use
@@ -46,7 +46,15 @@ Registered plugin skills are opt-in `skill_view` resources, not automatically
 created slash commands. Load only 1–3 relevant skills. Both teams' copies are
 kept separate, including skills with the same name.
 
-## What changed in 1.2.0
+## What changed in 1.3.0
+
+- Added the common seven-choice chat interaction from Allura Cowork 0.4.0.
+- Updated RAM 0.6.2 and Durham 0.4.3 owning menu sources, preserving their public
+  skill counts and domain routes under More.
+- Made Council's real delegation dependency and bounded loop stopping rules
+  explicit in native guidance. The adapter itself remains guidance loading.
+
+## Previous refresh in 1.2.0
 
 - Refreshed immutable public sources to Team RAM `0.6.1-persona.20261018` and
   Durham `0.4.2-persona.20261018`.
@@ -67,8 +75,13 @@ No live-model latency, cost or quality improvement has been measured.
 
 This is a standalone team plugin, separate from the Allura Brain memory provider.
 It neither changes `memory.provider` nor configures credentials or MCP servers.
-RAM uses explicit `group_id: allura-system`; Durham uses
-`group_id: allura-team-durham`. Never fall back to an unrelated provider tenant.
+Memory operations preserve the authenticated project/task scope. RAM's
+`allura-system` and Durham's `allura-team-durham` are default hints requiring
+confirmation by the active project and credentials. Loading a Council role does
+not change the parent's validated group_id or authorization receipt. The guidance
+tool returns `default_group_id` and `scope_status: inherit_authenticated_task`;
+it does not assert tenant authorization. Never infer a tenant from a persona
+or fall back to an unrelated provider tenant.
 If the configured Brain cannot serve the team/project scope, report degraded
 local-only context and continue safe work. Persona names do not change the
 authenticated principal. Semantic promotion and external shipping retain human
@@ -164,3 +177,14 @@ without Hermes, those integration checks skip explicitly. Tests use no model
 calls, network requests or credentials; they do not certify live model outcomes.
 
 Official SDK reference: [Hermes plugin documentation](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/developer-guide/plugins/index.md).
+
+## Chat menu
+
+Activation and an explicit menu request show the shared Allura choices: Next
+steps, Help with a prompt, Council, Work, Loop, Validate and More. Clear tasks
+execute directly. The bundled `cowork-allura-menu` skill is exported from an
+immutable Allura Cowork source pin and needs no extra plugin installation.
+Prompt help and bounded improvement loops work in the active conversation.
+Council depends on the host's actual delegation capability; loading multiple
+personas with `allura_team` does not execute independent specialists. Missing
+delegation yields an explicit limitation and a proposed Council brief.

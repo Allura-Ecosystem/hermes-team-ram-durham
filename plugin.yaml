@@ -1,5 +1,5 @@
 name: team-ram-durham
-version: "1.2.0"
+version: "1.3.0"
 kind: standalone
 description: Team RAM and Team Durham roles and scoped skills in the active Hermes conversation, using the host model and permissions.
 license: MIT

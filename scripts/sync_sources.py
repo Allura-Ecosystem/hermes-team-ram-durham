@@ -82,7 +82,9 @@ def load_tree(repo: Path, lock: dict) -> dict[str, tuple[str, str, bytes]]:
         blobs[oid] = raw[offset:offset + length]
         offset += length + 1
     tree = {path: (mode, oid, blobs[oid]) for path, (mode, oid) in entries.items()}
-    package = json.loads(tree["package.json"][2])
+    directory = safe_path(lock["packageDirectory"]) if lock.get("packageDirectory") else ""
+    package_path = f"{directory}/package.json" if directory else "package.json"
+    package = json.loads(tree[package_path][2])
     if package["version"] != lock["version"]:
         raise ValueError("pinned source package version differs from lock")
     return tree
@@ -115,18 +117,25 @@ def build_bundle(locks: dict, repositories: dict[str, Path]) -> dict[str, tuple[
     outputs = {}
     receipts = {}
     for namespace, lock in sorted(locks["sources"].items()):
-        if namespace not in ("ram", "durham"):
+        if namespace not in ("ram", "durham", "cowork"):
             raise ValueError(f"unsupported namespace: {namespace}")
         mappings = lock["mappings"]
         allowed = [safe_path(item["source"]) for item in mappings]
         excluded = [safe_path(item) for item in lock.get("exclude", [])]
         tree = load_tree(repositories[namespace], lock)
         # The selected roots must also be declared public by the source package.
-        public = json.loads(tree["package.json"][2])["files"]
-        public_roots = [item.removesuffix("/**").rstrip("/") for item in public]
+        directory = safe_path(lock["packageDirectory"]) if lock.get("packageDirectory") else ""
+        package_path = f"{directory}/package.json" if directory else "package.json"
+        public = json.loads(tree[package_path][2])["files"]
+        public_roots = [safe_path((directory + "/" if directory else "") + item.removesuffix("/**").rstrip("/")) for item in public]
         for prefix in allowed:
             if not any(within(prefix, root) for root in public_roots):
                 raise ValueError(f"source root is not public: {prefix}")
+        destinations = [safe_path(item["destination"]) for item in mappings]
+        for index, destination in enumerate(destinations):
+            if any(within(destination, other) or within(other, destination)
+                   for other in destinations[:index]):
+                raise ValueError(f"overlapping destination mappings: {destination}")
         for mapping in mappings:
             prefix = mapping["source"]
             destination = safe_path(mapping["destination"])
@@ -213,6 +222,7 @@ def main() -> int:
     action.add_argument("--sync", action="store_true")
     parser.add_argument("--ram-source", type=Path)
     parser.add_argument("--durham-source", type=Path)
+    parser.add_argument("--cowork-source", type=Path)
     args = parser.parse_args()
     locks = json.loads((ROOT / "source-locks.json").read_text())
     repos = {name: (getattr(args, f"{name}_source") or ROOT / lock["defaultDirectory"]).resolve()

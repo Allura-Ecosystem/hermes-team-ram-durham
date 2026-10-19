@@ -49,6 +49,7 @@ class PluginTests(unittest.TestCase):
         self.assertIn('durham-qa-reviewer', self.ctx.commands)
         self.assertIn('ram-allura-menu', self.ctx.skills)
         self.assertIn('durham-context7', self.ctx.skills)
+        self.assertIn('cowork-allura-menu', self.ctx.skills)
         self.assertNotEqual(self.ctx.skills['ram-allura-memory-skill'], self.ctx.skills['durham-allura-memory-skill'])
         self.assertNotIn('ram-figma-create-new-file', self.ctx.skills)
 
@@ -60,8 +61,8 @@ class PluginTests(unittest.TestCase):
         self.assertEqual({name.removeprefix('ram-') for name in self.ctx.skills
                           if name.startswith('ram-')}, expected)
         menu = self.ctx.skills['ram-allura-menu'].read_text()
-        for command in ('Work', 'Rehydrate', 'Research', 'Council', 'Party',
-                        'Debug', 'Review', 'Setup', 'Doctor'):
+        for command in ('Next steps', 'Help with a prompt', 'Council', 'Work',
+                        'Loop', 'Validate', 'More'):
             self.assertIn(command, menu)
         for team, role in [('ram', 'bahari'), ('durham', 'openagent'),
                            ('durham', 'evidence-collector')]:
@@ -70,7 +71,8 @@ class PluginTests(unittest.TestCase):
             self.assertEqual(result['status'], 'error')
         result = json.loads(PLUGIN.team_tool({'team': 'ram', 'task': 'activate'}))
         self.assertIn('team-ram-durham:ram-allura-menu', result['instructions'])
-        self.assertIn('recommend the next applicable step', result['instructions'])
+        self.assertIn('recommend one next step with a reason and owner', result['instructions'])
+        self.assertIn('does not invoke Council', result['instructions'])
         self.assertIn('Hermes Setup and Doctor override', result['instructions'])
         self.assertIn(str(ROOT / 'scripts/doctor.py'), result['instructions'])
         self.assertIn('If shell/Python is unavailable', result['instructions'])
@@ -106,10 +108,12 @@ class PluginTests(unittest.TestCase):
                 result = json.loads(PLUGIN.team_tool({'team': team, 'task': 'plan'}))
                 self.assertEqual(result['status'], 'guidance_loaded')
                 self.assertFalse(result['execution_started'])
-                self.assertEqual(result['group_id'], tenant)
+                self.assertEqual(result['default_group_id'], tenant)
+                self.assertEqual(result['scope_status'], 'inherit_authenticated_task')
+                self.assertNotIn('group_id', result)
                 self.assertEqual(result['model'], 'inherit')
                 self.assertIn('ADAPTIVE WORKFLOW', result['instructions'])
-                self.assertIn('never\nfall back', result['instructions'])
+                self.assertIn("Never fall back to a provider's default tenant", result['instructions'])
 
     def test_invalid_input_cannot_read_arbitrary_files(self):
         for args in [None, {'team': []}, {'team': '../../'}, {'team': 'ram', 'role': '../../README'}, {'team': 'ram', 'task': 123}]:

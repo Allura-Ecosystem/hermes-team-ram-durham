@@ -3,9 +3,9 @@
   "sources": {
     "ram": {
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "commit": "440882e8ff47ae0c69ce85d86427a0b7a6deaa25",
-      "version": "0.6.1-persona.20261018",
-      "defaultDirectory": "../allura-team-ram",
+      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "version": "0.6.2",
+      "defaultDirectory": "../allura-team-ram-menu-20261019",
       "mappings": [
         {
           "source": "agents/brooks.md",
@@ -60,8 +60,8 @@
     },
     "durham": {
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
-      "commit": "c15b9fa15428cae50a2e06715a327296c19a3633",
-      "version": "0.4.2-persona.20261018",
+      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "version": "0.4.3",
       "defaultDirectory": "../team-durham",
       "mappings": [
         {
@@ -79,6 +79,20 @@
         {
           "source": "contracts",
           "destination": "policies/durham/contracts"
+        }
+      ],
+      "exclude": []
+    },
+    "cowork": {
+      "repository": "https://github.com/Allura-Ecosystem/allura-plugins.git",
+      "commit": "cd43260b5d45a0415f862caadc9dbf7b3b954514",
+      "version": "0.4.0",
+      "packageDirectory": "allura-cowork",
+      "defaultDirectory": "../allura-persona-release-20261018",
+      "mappings": [
+        {
+          "source": "allura-cowork/skills/allura-menu",
+          "destination": "skills/cowork/allura-menu"
         }
       ],
       "exclude": []

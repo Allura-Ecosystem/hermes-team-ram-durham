@@ -44,6 +44,33 @@ class SourceSyncTests(unittest.TestCase):
         self.tmp_path = Path(temporary.name)
         self.source = make_source(self.tmp_path)
 
+    def test_nested_cowork_package_uses_immutable_public_allowlist(self):
+        repo, _ = self.source
+        package = repo / 'allura-cowork'
+        skill = package / 'skills/allura-menu'
+        skill.mkdir(parents=True)
+        (package / 'package.json').write_text(json.dumps({
+            'version': '0.4.0', 'files': ['skills/']}))
+        (skill / 'SKILL.md').write_text('common protocol')
+        lock = {'repository': REMOTE, 'version': '0.4.0',
+                'commit': commit(repo), 'packageDirectory': 'allura-cowork',
+                'mappings': [{'source': 'allura-cowork/skills/allura-menu',
+                              'destination': 'skills/cowork/allura-menu'}]}
+        locks = {'schemaVersion': 1, 'sources': {'cowork': lock}}
+        (skill / 'SKILL.md').write_text('dirty not exported')
+        outputs = sync.build_bundle(locks, {'cowork': repo})
+        self.assertEqual(outputs['skills/cowork/allura-menu/SKILL.md'][0],
+                         b'common protocol')
+        lock['packageDirectory'] = '../outside'
+        with self.assertRaisesRegex(ValueError, 'unsafe relative path'):
+            sync.build_bundle(locks, {'cowork': repo})
+
+    def test_overlapping_destinations_fail_before_export(self):
+        repo, locks = self.source
+        locks['sources']['ram']['mappings'][1]['destination'] = 'agents/ram/nested'
+        with self.assertRaisesRegex(ValueError, 'overlapping destination'):
+            sync.build_bundle(locks, {'ram': repo})
+
     def test_individual_public_agent_mapping_does_not_export_retired_role(self):
         repo, locks = self.source
         (repo / 'agents/retired.md').write_text('not a public role')

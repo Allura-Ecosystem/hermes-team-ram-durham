@@ -108,7 +108,9 @@ class NativeHermesTests(unittest.TestCase):
                 self.assertEqual(result["status"], "guidance_loaded")
                 self.assertIs(result["execution_started"], False)
                 self.assertEqual(result["role"], role)
-                self.assertEqual(result["group_id"], tenant)
+                self.assertEqual(result["default_group_id"], tenant)
+                self.assertEqual(result["scope_status"], "inherit_authenticated_task")
+                self.assertNotIn("group_id", result)
                 self.assertEqual(result["model"], "inherit")
                 self.assertEqual(result["task"], "Assess the approved scope")
                 self.assertEqual(result["entry_skill"], f"team-ram-durham:{team}")
@@ -207,17 +209,41 @@ class NativeHermesTests(unittest.TestCase):
                 self.assertIn("allura_team", response)
                 self.assertNotIn("completed", response.lower())
 
+    def test_council_can_load_both_full_role_cards_without_delegating(self) -> None:
+        for team, role in (("ram", "jobs"), ("durham", "brand-orchestrator")):
+            with self.subTest(team=team):
+                result = self.tool_result(team=team, role=role,
+                                          task="Examine the approved menu decision")
+                source = (PLUGIN_ROOT / "agents" / team / f"{role}.md").read_text()
+                # The native tool provides the complete body for a supported
+                # host delegate, rather than a roster summary or pretend reply.
+                if source.startswith("---\n"):
+                    source = source[4:].partition("\n---\n")[2]
+                self.assertIn(source.strip(), result["instructions"])
+                self.assertFalse(result["execution_started"])
+                self.assertIn("host delegation tool", result["instructions"])
+                self.assertEqual(result["scope_status"], "inherit_authenticated_task")
+                self.assertNotIn("group_id", result)
+                if team == "durham":
+                    self.assertEqual(result["default_group_id"], "allura-team-durham")
+                    self.assertNotIn("Every memory operation must explicitly use allura-team-durham",
+                                     result["instructions"])
+                    self.assertIn("for a RAM parent authorized to allura-system, Durham participation still uses\nallura-system",
+                                  result["instructions"])
+                    self.assertIn("validated group_id and authorization receipt unchanged",
+                                  result["instructions"])
+
     def test_every_registered_skill_is_a_real_file_and_skill_view_can_read_it(self) -> None:
         skill_view = importlib.import_module("tools.skills_tool").skill_view
         registered = self.manager._plugin_skills
         expected = {
             f"team-ram-durham:{team}-{path.parent.name}": path
-            for team in ("ram", "durham")
+            for team in ("ram", "durham", "cowork")
             for path in (PLUGIN_ROOT / "skills" / team).glob("*/SKILL.md")
         }
         # Workflow entry points are separate from the canonical skill bundles.
         workflow_paths = {PLUGIN_ROOT / "workflows" / team / "SKILL.md" for team in ("ram", "durham")}
-        self.assertEqual(len(expected), 87, "Canonical public skill bundles differ")
+        self.assertEqual(len(expected), 88, "Canonical public skill bundles differ")
         self.assertTrue(set(expected) <= set(registered), "Qualified canonical skills missing")
         actual_paths = {item["path"] for item in registered.values()}
         self.assertTrue(workflow_paths <= actual_paths, "RAM/Durham entry workflows missing")
