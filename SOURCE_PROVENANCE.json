@@ -72,7 +72,7 @@
     },
     "agents/ram/bellard.md": {
       "blob": "d3efa6338472711e4246640d9ae20800f152bea4",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/bellard.md",
@@ -82,7 +82,7 @@
     },
     "agents/ram/brooks.md": {
       "blob": "0a5f06f9db22c47435a9e03ea7296462a80dee2c",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/brooks.md",
@@ -92,7 +92,7 @@
     },
     "agents/ram/carmack.md": {
       "blob": "8dcf50bd8be84da100716b7ba9f5b3fff6580c10",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/carmack.md",
@@ -102,7 +102,7 @@
     },
     "agents/ram/fowler.md": {
       "blob": "1e2bca73d8b542608715be5b299fceeef8e01b9e",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/fowler.md",
@@ -112,7 +112,7 @@
     },
     "agents/ram/hightower.md": {
       "blob": "b6049b6d5465e99a7f0e49c0575cb088eed9135e",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/hightower.md",
@@ -122,7 +122,7 @@
     },
     "agents/ram/jobs.md": {
       "blob": "633c4be80e8875c721e04507aa8ee3c796a53a30",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/jobs.md",
@@ -132,7 +132,7 @@
     },
     "agents/ram/knuth.md": {
       "blob": "7bfaf90bc8d5c0888c8a417756bca5b84c73bd93",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/knuth.md",
@@ -142,7 +142,7 @@
     },
     "agents/ram/pike.md": {
       "blob": "8239698359edc1ccbfe6604ea71a433508b44ec9",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/pike.md",
@@ -152,7 +152,7 @@
     },
     "agents/ram/scout.md": {
       "blob": "1dbd8febc96465d7ffbc843cc741d6f5c2263176",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/scout.md",
@@ -162,7 +162,7 @@
     },
     "agents/ram/woz.md": {
       "blob": "86747d3f200acbb34e3862c655a453080a41a992",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/woz.md",
@@ -212,7 +212,7 @@
     },
     "policies/ram/adaptive-workflow.md": {
       "blob": "0821f87c2773e6021e96b7f4a6baa0c915a70d9d",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": ".opencode/contracts/adaptive-workflow.md",
@@ -2292,7 +2292,7 @@
     },
     "skills/ram/.team-ram-generated-skills.json": {
       "blob": "e2ac8e788e7d940ef440efeb2e43d5c9b93e4ec4",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/.team-ram-generated-skills.json",
@@ -2302,7 +2302,7 @@
     },
     "skills/ram/allura-memory-skill/SKILL.md": {
       "blob": "10c695a83e9e2e7b5580d4369d4278dae7677865",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-memory-skill/SKILL.md",
@@ -2312,7 +2312,7 @@
     },
     "skills/ram/allura-menu/SKILL.md": {
       "blob": "3a3d436ccb8bd4315d864c34faeb4e536ccbb188",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-menu/SKILL.md",
@@ -2322,7 +2322,7 @@
     },
     "skills/ram/allura-menu/metadata.json": {
       "blob": "cac105e408b688d93c4c3ee1442f0032dd07bf8b",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-menu/metadata.json",
@@ -2332,7 +2332,7 @@
     },
     "skills/ram/code-review/SKILL.md": {
       "blob": "177ce7b5ab9fd5919fb31331c9cc6b271c27d72b",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/code-review/SKILL.md",
@@ -2342,7 +2342,7 @@
     },
     "skills/ram/code-review/metadata.json": {
       "blob": "62f568a2331359a8bf2349a9086c73a88ad2dc54",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/code-review/metadata.json",
@@ -2352,7 +2352,7 @@
     },
     "skills/ram/multi-search/SKILL.md": {
       "blob": "b700801b6be8fb4c5ea2f8587e4cbe8559245bca",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/multi-search/SKILL.md",
@@ -2362,7 +2362,7 @@
     },
     "skills/ram/multi-search/metadata.json": {
       "blob": "be2df9f841c5d0dfbb6457b9e75a0857cdd9a87f",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/multi-search/metadata.json",
@@ -2372,7 +2372,7 @@
     },
     "skills/ram/party-mode/SKILL.md": {
       "blob": "7d126d592240d3584e879a05b3b0fd42e3b75a0f",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/party-mode/SKILL.md",
@@ -2382,7 +2382,7 @@
     },
     "skills/ram/party-mode/metadata.json": {
       "blob": "35739da3a1c24b952f350fc91d0d2ce55762f2ee",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/party-mode/metadata.json",
@@ -2392,7 +2392,7 @@
     },
     "skills/ram/roundtable/SKILL.md": {
       "blob": "cb77cf36f53975f390f45e0ced81b5c0c0c84527",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/roundtable/SKILL.md",
@@ -2402,7 +2402,7 @@
     },
     "skills/ram/roundtable/references/roundtable-vs-party-mode.md": {
       "blob": "b20be6879d7f3a10c19e025da84113cdda6c76f7",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/roundtable/references/roundtable-vs-party-mode.md",
@@ -2412,7 +2412,7 @@
     },
     "skills/ram/systematic-debugging-memory/SKILL.md": {
       "blob": "f5da8bacef444cef16d723d01ef20b1f9665261e",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/systematic-debugging-memory/SKILL.md",
@@ -2422,7 +2422,7 @@
     },
     "skills/ram/systematic-debugging-memory/metadata.json": {
       "blob": "7c38e5b00b815d88396266781f30de4855d827c8",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/systematic-debugging-memory/metadata.json",
@@ -2432,7 +2432,7 @@
     },
     "skills/ram/team-ram-cowork/SKILL.md": {
       "blob": "907a332104d4432731291c18b2197c440387b6f8",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-cowork/SKILL.md",
@@ -2442,7 +2442,7 @@
     },
     "skills/ram/team-ram-doctor/SKILL.md": {
       "blob": "b3a141d716f1afbac7ce4b30a031c86e6c18e571",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-doctor/SKILL.md",
@@ -2452,7 +2452,7 @@
     },
     "skills/ram/team-ram-doctor/references/diagnostics.md": {
       "blob": "354b3b2b73c04fcbb127a56398c165d7f2761c43",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-doctor/references/diagnostics.md",
@@ -2462,7 +2462,7 @@
     },
     "skills/ram/team-ram-setup/SKILL.md": {
       "blob": "4c05e90b02e61552fadf7acbde003a43a2d0dad8",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-setup/SKILL.md",
@@ -2472,7 +2472,7 @@
     },
     "skills/ram/team-ram-setup/references/setup-checklist.md": {
       "blob": "75939042e82e7884289bf0f825167e513806d6dc",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-setup/references/setup-checklist.md",
@@ -2483,7 +2483,7 @@
   },
   "generatedBy": "scripts/sync_sources.py",
   "schemaVersion": 1,
-  "sourceLocksSha256": "ffc2c5799338c3c760e2e65beb058c7be46a3c59b42ce5c7e3f5e9311f6c1b3a",
+  "sourceLocksSha256": "e298aee55c2fe38376c3cd672a7e60a71fbfcf9823e6fdba00fb2fd12170b853",
   "sources": {
     "cowork": {
       "commit": "4715fd390fb3ce26b8e3c4b6618805a6b198d246",
@@ -2496,7 +2496,7 @@
       "version": "0.4.5"
     },
     "ram": {
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "version": "0.6.3"
     }

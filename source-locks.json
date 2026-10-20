@@ -3,7 +3,7 @@
   "sources": {
     "ram": {
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "commit": "5dc3ea8160e856957a8bc66c8ee95cc22e02bb3f",
       "version": "0.6.3",
       "defaultDirectory": "../allura-team-ram-menu-20261019",
       "mappings": [
