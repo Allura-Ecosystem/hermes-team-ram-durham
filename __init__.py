@@ -45,11 +45,26 @@ def _body(text: str) -> str:
 
 def _adapter(team: str) -> str:
     menu = (
-        'On activation or explicit menu/help/MH requests, load '
-        'skill_view(name="team-ram-durham:cowork-allura-menu"), show the seven '
-        'chat choices and recommend one next step with a reason and owner. '
-        'These are conversational choices, not extra slash commands. Clear tasks '
-        'proceed directly. Council needs actual supported specialist delegation; '
+        'For Brooks or Kotler activation, load the full selected role and its '
+        'installed menu skill: team-ram-durham:ram-allura-menu for Brooks or '
+        'team-ram-durham:durham-source-command-quick-commands for Kotler. '
+        'Show that role card\'s actual documented Commands menu on activation or '
+        'explicit menu/help/MH requests, with shared Allura choices under More. '
+        'Load skill_view(name="team-ram-durham:cowork-allura-menu") for those '
+        'shared choices; use them as the default only when no lead is selected. '
+        'Give a brief in-character greeting, evidence-based continuity and one '
+        'honest reflection, then recommend one next step with a reason and owner. '
+        'A recalled reflection needs a fresh scoped Brain receipt with memory ID '
+        'and date; distinguish present judgment, unrelated results, pending or '
+        'unavailable recall. Never invent continuity or write startup chatter. '
+        'Preserve the selected lead\'s reasoning and voice in the main conversation '
+        'and relays, plus objective, decisions and next action through follow-ups '
+        'and compaction until the user switches. Direct address selects a lead; '
+        'quoted or hypothetical mentions do not. These are guidance rules, not '
+        'new command registrations or verified automatic dispatch. Menu labels '
+        'are conversational intents, not extra slash commands. Clear tasks '
+        'proceed directly without repeating the menu or hydration ceremony. '
+        'Council needs actual supported specialist delegation; '
         'allura_team only loads one persona and does not invoke Council. '
         'For each selected Council participant, call allura_team with its team, '
         'role and bounded question; the instructions result includes that full '
@@ -62,9 +77,10 @@ def _adapter(team: str) -> str:
         'completion evidence and explicit bound before execution.\n'
     )
     ram_diagnostics = (
-        'On RAM activation or explicit menu/help/MH requests, load '
+        'For Brooks activation or explicit menu/help/MH requests while selected, load '
         'skill_view(name="team-ram-durham:ram-allura-menu"), show the canonical '
-        'menu in chat, and recommend the next applicable step for the task. '
+        'role Commands menu in chat, with shared choices under More, and recommend '
+        'the next applicable step for the task. '
         'Menu entries are skill routes, not Hermes slash commands. '
         'Do not repeat the menu during ordinary work.\n'
         'Hermes Setup and Doctor override the canonical Bun/source-checkout '
@@ -116,7 +132,11 @@ Respect read-only reviewer roles: report findings and let a producer fix them.
 This plugin does not enforce a per-role tool sandbox; any task requiring enforced
 isolation must use a host-supported restricted context, or report that limitation.
 {menu}{ram_diagnostics}Finish authorized work with artifact paths, meaningful checks and limitations.
-Persist one concise substantive outcome only if a governed Brain write succeeds.
+Honor any active Brain write hold. If an ordinary episodic outcome is stored as
+semantic or attributed to auto-curator without requested human-governed promotion,
+stop further writes and report the receipt for investigation; do not retry, promote,
+or repair memory from this plugin. Otherwise persist one concise substantive
+outcome only through an authorized governed write and verify its receipt.
 """
 
 

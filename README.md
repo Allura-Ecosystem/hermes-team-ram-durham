@@ -4,12 +4,12 @@ Use engineering and brand specialists in your current Hermes conversation.
 
 This native plugin loads RAM and Durham role guidance, task skills, and the shared Allura chat menu. The active host supplies the model, context, tools, and permissions. Choose RAM for software delivery or Durham for brand strategy, copy, and production.
 
-Version `1.3.0` bundles 17 public role definitions and 90 registered skills: ten RAM skills, 77 Durham skills, one shared Cowork menu, and two entry workflows. These are available definitions, not counts of running agents.
+Version `1.3.1` bundles 17 public role definitions and 90 registered skills: ten RAM skills, 77 Durham skills, one shared Cowork menu, and two entry workflows. These are available definitions, not counts of running agents.
 
 ## Install
 
-Version `1.3.0` is available from the default `main` branch. Its immutable
-source pins remain recorded in `source-locks.json`.
+This checkout declares version `1.3.1`. Its immutable source pins are recorded
+in `source-locks.json`; check the reviewed checkout version before installing.
 
 Clone `main` and review its commit and files first:
 
@@ -92,6 +92,13 @@ local-only context and continue safe work. Persona names do not change the
 authenticated principal. Semantic promotion and external shipping retain human
 approval gates.
 
+An active Brain write hold must be honored. If an ordinary episodic outcome is
+unexpectedly stored as semantic or attributed to `auto-curator` without requested
+human-governed promotion, the guidance requires stopping further writes and
+reporting the receipt for investigation. This instruction does not repair or
+enforce backend promotion behavior. No live memory write is required to activate
+a lead or run the package doctor.
+
 Canonical role cards contain foreign-runtime examples. The Hermes adapter maps
 their resources to this bundle and requires actual host schemas. Personas and
 skills are instructions, **not enforced per-role tool sandboxes**. Read-only
@@ -155,7 +162,10 @@ Official SDK reference: [Hermes plugin documentation](https://github.com/NousRes
 
 ## Chat menu
 
-Activation and an explicit menu request show the shared Allura choices:
+Brooks and Kotler activation shows the selected lead's documented **Commands**
+menu from its full role card. The adapter loads `ram-allura-menu` for Brooks or
+`durham-source-command-quick-commands` for Kotler. Shared Allura choices remain
+under **More**, or serve as the default when no lead is selected:
 
 | Choice | Purpose |
 |---|---|
@@ -167,7 +177,18 @@ Activation and an explicit menu request show the shared Allura choices:
 | Validate | Compare results with criteria and evidence |
 | More | Find additional installed workflows, Setup, or Doctor |
 
-Clear tasks proceed directly. The bundled `cowork-allura-menu` skill is exported from an
+The selected lead keeps its voice, reasoning and task context through follow-ups
+and compaction until the user switches. Activation includes a brief greeting,
+evidence-based continuity, an honest reflection and a recommended next action.
+Recalled lessons cite a fresh scoped Brain receipt's memory ID and date; current
+judgment and unavailable or unrelated recall are identified explicitly. Startup
+chatter is not written to memory. Clear tasks proceed directly without repeating
+the activation ceremony.
+
+Direct address is a conversational selection instruction. It does not register
+bare `Brooks` or `Kotler` commands or prove that a host dispatched a role. Use the
+registered `/ram` and `/durham` CLI commands or the `allura_team` tool as described
+above. The bundled `cowork-allura-menu` skill is exported from an
 immutable Allura Cowork source pin and needs no extra plugin installation.
 Prompt help and bounded improvement loops work in the active conversation.
 Council depends on the host's actual delegation capability; loading multiple
@@ -178,6 +199,18 @@ delegation yields an explicit limitation and a proposed Council brief.
 
 <details>
 <summary>Menu and source refreshes</summary>
+
+### Version 1.3.1
+
+- Refreshed immutable sources to RAM `0.6.3`, Durham `0.4.5`, and Cowork `0.4.1`.
+- Aligned the native adapter and entry workflows with persistent Brooks/Kotler
+  ownership, their own role menus, and shared choices under More.
+- Required honest continuity and reflections with memory ID/date evidence for
+  recalled lessons, while preserving ordinary follow-up voice and task context.
+- Added guidance to honor a Brain write hold and stop further writes after an
+  unexpected semantic/auto-curator outcome. Backend investigation remains separate.
+- Retained the existing guidance tool and CLI queue behavior, host model,
+  permissions, memory provider, credentials, and command registrations.
 
 ### Version 1.3.0
 
