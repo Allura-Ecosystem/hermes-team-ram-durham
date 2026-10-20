@@ -2,7 +2,7 @@
   "files": {
     "agents/durham/brand-kit-builder.md": {
       "blob": "7ebd3caac498f7b2ccd1704f7c908fe6385fc025",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/brand-kit-builder.md",
@@ -11,18 +11,18 @@
       "sourcePath": "agents/brand-kit-builder.md"
     },
     "agents/durham/brand-orchestrator.md": {
-      "blob": "16295c3fffd45444f3c94afd8971c7682b707147",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "blob": "c5d63f3cfe975eeadb42efc58536f07e68cafe10",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/brand-orchestrator.md",
-      "sha256": "49454bbb6d5266fde41ef21ee57a49898944d9c79724b31c934402744abffd01",
+      "sha256": "40bee2b3b0fe031248860fd671ca8e8e33102f44799406b612965c087587524d",
       "source": "durham",
       "sourcePath": "agents/brand-orchestrator.md"
     },
     "agents/durham/brand-strategist.md": {
       "blob": "4334f7d1ced6c851ef9256c19b26afc5ff7f539a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/brand-strategist.md",
@@ -32,7 +32,7 @@
     },
     "agents/durham/copywriter.md": {
       "blob": "de7bce23b15c8118628e141ca9cf503ce0cad730",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/copywriter.md",
@@ -42,7 +42,7 @@
     },
     "agents/durham/data-analyst.md": {
       "blob": "94a9f07d1af8e421f1ff724d6a77b98ab555b563",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/data-analyst.md",
@@ -52,7 +52,7 @@
     },
     "agents/durham/qa-reviewer.md": {
       "blob": "93f47fdfbb6a8677fb5d554059072e813ae06e43",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/qa-reviewer.md",
@@ -62,7 +62,7 @@
     },
     "agents/durham/visual-director.md": {
       "blob": "18830255a4547dafb4f56a55da125333e6486924",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "agents/visual-director.md",
@@ -72,7 +72,7 @@
     },
     "agents/ram/bellard.md": {
       "blob": "d3efa6338472711e4246640d9ae20800f152bea4",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/bellard.md",
@@ -81,18 +81,18 @@
       "sourcePath": "agents/bellard.md"
     },
     "agents/ram/brooks.md": {
-      "blob": "a833d56167f6c1c48fc549778da1333326820a5e",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "blob": "0a5f06f9db22c47435a9e03ea7296462a80dee2c",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/brooks.md",
-      "sha256": "9ec8c30878da933c6de8c241b029eaeacd0dc4f209b3907d4555b438b3742db6",
+      "sha256": "0dcd10eadf0d6e34b3d0585c7a695f9ba5502529c5fa8fe532b151ae3460d406",
       "source": "ram",
       "sourcePath": "agents/brooks.md"
     },
     "agents/ram/carmack.md": {
       "blob": "8dcf50bd8be84da100716b7ba9f5b3fff6580c10",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/carmack.md",
@@ -102,7 +102,7 @@
     },
     "agents/ram/fowler.md": {
       "blob": "1e2bca73d8b542608715be5b299fceeef8e01b9e",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/fowler.md",
@@ -112,7 +112,7 @@
     },
     "agents/ram/hightower.md": {
       "blob": "b6049b6d5465e99a7f0e49c0575cb088eed9135e",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/hightower.md",
@@ -122,7 +122,7 @@
     },
     "agents/ram/jobs.md": {
       "blob": "633c4be80e8875c721e04507aa8ee3c796a53a30",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/jobs.md",
@@ -132,7 +132,7 @@
     },
     "agents/ram/knuth.md": {
       "blob": "7bfaf90bc8d5c0888c8a417756bca5b84c73bd93",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/knuth.md",
@@ -142,7 +142,7 @@
     },
     "agents/ram/pike.md": {
       "blob": "8239698359edc1ccbfe6604ea71a433508b44ec9",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/pike.md",
@@ -152,7 +152,7 @@
     },
     "agents/ram/scout.md": {
       "blob": "1dbd8febc96465d7ffbc843cc741d6f5c2263176",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/scout.md",
@@ -162,7 +162,7 @@
     },
     "agents/ram/woz.md": {
       "blob": "86747d3f200acbb34e3862c655a453080a41a992",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "agents/woz.md",
@@ -172,7 +172,7 @@
     },
     "policies/durham/contracts/adaptive-routing.json": {
       "blob": "776bd7374376b88afc341d685442085287982666",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "contracts/adaptive-routing.json",
@@ -182,7 +182,7 @@
     },
     "policies/durham/contracts/context-packet.schema.json": {
       "blob": "92bce547baa2128c0f82a64b9e64dce002db272b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "contracts/context-packet.schema.json",
@@ -192,7 +192,7 @@
     },
     "policies/durham/governance/README.md": {
       "blob": "ed374a4a13462dfb0b4e368cfc3ebad1b3e3c8fd",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "governance/README.md",
@@ -202,7 +202,7 @@
     },
     "policies/durham/governance/adaptive-workflow.md": {
       "blob": "65229cdf50d23dfdfd3248f02cedee3f3011a089",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "governance/adaptive-workflow.md",
@@ -212,7 +212,7 @@
     },
     "policies/ram/adaptive-workflow.md": {
       "blob": "0821f87c2773e6021e96b7f4a6baa0c915a70d9d",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": ".opencode/contracts/adaptive-workflow.md",
@@ -221,18 +221,18 @@
       "sourcePath": ".opencode/contracts/adaptive-workflow.md"
     },
     "skills/cowork/allura-menu/SKILL.md": {
-      "blob": "3f80c26c9c16f12931f8c9e36fb28c087a8b01e4",
-      "commit": "cd43260b5d45a0415f862caadc9dbf7b3b954514",
+      "blob": "68323d03d425d437ccf9e50c4785d1b59ff04254",
+      "commit": "4715fd390fb3ce26b8e3c4b6618805a6b198d246",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-plugins.git",
       "resolvedSourcePath": "allura-cowork/skills/allura-menu/SKILL.md",
-      "sha256": "30337957d8a067a09ea994ac7be5c12493c168f5fac1689c14e46e4e446e7b40",
+      "sha256": "866b5eda4c69b8d9ea69c3a1427fd8a5a465dd5504beba89682bc28d96d00141",
       "source": "cowork",
       "sourcePath": "allura-cowork/skills/allura-menu/SKILL.md"
     },
     "skills/durham/accessibility-aaa/SKILL.md": {
       "blob": "c457978e9a7a28082ed9b188c47bc9eedecf33f0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/accessibility-aaa/SKILL.md",
@@ -242,7 +242,7 @@
     },
     "skills/durham/allura-memory-skill/SKILL.md": {
       "blob": "bbca79d1d0fe7c10617d1d2ec506b466531e3b33",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/SKILL.md",
@@ -252,7 +252,7 @@
     },
     "skills/durham/allura-memory-skill/metadata.json": {
       "blob": "f8c9640fb4e42b1d1d7e05380798967a441679b5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/metadata.json",
@@ -262,7 +262,7 @@
     },
     "skills/durham/allura-memory-skill/references/allura-dual-context-retrieval.md": {
       "blob": "b93016ca47637f4357f87d3b3da7d85800dcccf0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/references/allura-dual-context-retrieval.md",
@@ -272,7 +272,7 @@
     },
     "skills/durham/allura-memory-skill/references/allura-memory-model.md": {
       "blob": "c39c7771f21eadcb79fe92814fd743a69e1ed206",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/references/allura-memory-model.md",
@@ -282,7 +282,7 @@
     },
     "skills/durham/allura-memory-skill/references/allura-promotion-policy.md": {
       "blob": "6a0c0377c62951eb4a57c2cc089c65e10faa61e5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/references/allura-promotion-policy.md",
@@ -292,7 +292,7 @@
     },
     "skills/durham/allura-memory-skill/references/allura-troubleshooting.md": {
       "blob": "77f22d45ffa270e7a5faa00dac97638049247eb4",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/references/allura-troubleshooting.md",
@@ -302,7 +302,7 @@
     },
     "skills/durham/allura-memory-skill/scripts/smoke-test-memory.sh": {
       "blob": "580785ce515c4945bc1f5ddffcc09c43b7614b33",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100755",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/scripts/smoke-test-memory.sh",
@@ -312,7 +312,7 @@
     },
     "skills/durham/allura-memory-skill/scripts/validate-env.sh": {
       "blob": "f9433a24583fd0fcce5026373937c43e063f250d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100755",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/allura-memory-skill/scripts/validate-env.sh",
@@ -322,7 +322,7 @@
     },
     "skills/durham/asset-first-design/SKILL.md": {
       "blob": "ae70aeb49d461de633621abd20d19da44f397876",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/asset-first-design/SKILL.md",
@@ -332,7 +332,7 @@
     },
     "skills/durham/brand-audit-existing/SKILL.md": {
       "blob": "917a231dc83cc466e4c0bac1b2223a10e2a8f4c6",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-audit-existing/SKILL.md",
@@ -342,7 +342,7 @@
     },
     "skills/durham/brand-consistency-review/SKILL.md": {
       "blob": "23e49ef7901698ed7f0e55181dd82a7f3b6dbd18",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-consistency-review/SKILL.md",
@@ -352,7 +352,7 @@
     },
     "skills/durham/brand-consistency-review/score-checklist.js": {
       "blob": "7d235b3d49dc92f642e0ddc0a9dc5fcab44d6b18",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-consistency-review/score-checklist.js",
@@ -362,7 +362,7 @@
     },
     "skills/durham/brand-guardian-monitor/SKILL.md": {
       "blob": "fbfb6a44f3cf41bd3ab548c5584a8a73f55b158b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-guardian-monitor/SKILL.md",
@@ -372,7 +372,7 @@
     },
     "skills/durham/brand-kit-10-section/SKILL.md": {
       "blob": "7dfbe027035709fbc5e4b8c6a6b17ac7aca794e9",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-kit-10-section/SKILL.md",
@@ -382,7 +382,7 @@
     },
     "skills/durham/brand-loop/SKILL.md": {
       "blob": "d48f63aba3cd884c57cd77530734f60cb278cf3a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-loop/SKILL.md",
@@ -392,7 +392,7 @@
     },
     "skills/durham/brand-metrics-dashboard/SKILL.md": {
       "blob": "a2abed557b296ef8230ff1f1c9fae32f551e013a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-metrics-dashboard/SKILL.md",
@@ -402,7 +402,7 @@
     },
     "skills/durham/brand-presentation-builder/SKILL.md": {
       "blob": "b7c44d50e80497d4e399782f88abbe3f6232be6d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-presentation-builder/SKILL.md",
@@ -412,7 +412,7 @@
     },
     "skills/durham/brand-strategy/SKILL.md": {
       "blob": "500567a478a89fb2ff879f5d8d559e99ef4f5597",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/brand-strategy/SKILL.md",
@@ -422,7 +422,7 @@
     },
     "skills/durham/client-brief-intake/SKILL.md": {
       "blob": "aa039ac1faee3519cc5171da8ea551a73b98b360",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/client-brief-intake/SKILL.md",
@@ -432,7 +432,7 @@
     },
     "skills/durham/client-feedback-loop/SKILL.md": {
       "blob": "b5ccf1dfd88dde6c5f95265bdaa5b4348e04165f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/client-feedback-loop/SKILL.md",
@@ -442,7 +442,7 @@
     },
     "skills/durham/competitive-intelligence/SKILL.md": {
       "blob": "e53488dd0d9295365d11042ee9de0cdd459265df",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/competitive-intelligence/SKILL.md",
@@ -452,7 +452,7 @@
     },
     "skills/durham/context7/SKILL.md": {
       "blob": "99a0a5b5f3a1359eedf49d0b44f94d8ad2a590bd",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/context7/SKILL.md",
@@ -462,7 +462,7 @@
     },
     "skills/durham/copy-pack-assembler/SKILL.md": {
       "blob": "41484a191789f4e1f14a960fb2fea2a5da6055bf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/copy-pack-assembler/SKILL.md",
@@ -472,7 +472,7 @@
     },
     "skills/durham/cross-brand-portfolio/SKILL.md": {
       "blob": "810b6eaf380cea2db95a058d098fdefcf53c7017",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/cross-brand-portfolio/SKILL.md",
@@ -482,7 +482,7 @@
     },
     "skills/durham/design-tokens/SKILL.md": {
       "blob": "6213cbc89c4d55945823d62230583f04fc32d7d3",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/design-tokens/SKILL.md",
@@ -492,7 +492,7 @@
     },
     "skills/durham/docker-presentation-server/SKILL.md": {
       "blob": "de684212311d439b27bdc809097869997c27412d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/docker-presentation-server/SKILL.md",
@@ -502,7 +502,7 @@
     },
     "skills/durham/editorial-system/SKILL.md": {
       "blob": "13354c47c1678612d7bbb9fbf8c4648d224ea3f5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/editorial-system/SKILL.md",
@@ -512,7 +512,7 @@
     },
     "skills/durham/fal-ai-image-prompt-engineering/SKILL.md": {
       "blob": "165ef309c50ec873750747c42c8c7323775a8c42",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ai-image-prompt-engineering/SKILL.md",
@@ -522,7 +522,7 @@
     },
     "skills/durham/fal-ideogram-executor/SKILL.md": {
       "blob": "609ef146b9eab0e257d7df9781212bfa77548635",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ideogram-executor/SKILL.md",
@@ -532,7 +532,7 @@
     },
     "skills/durham/fal-ideogram-executor/reference/round4-execution-guide.md": {
       "blob": "b0c62d813690b011045c4c1a132c3b805eafcaeb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ideogram-executor/reference/round4-execution-guide.md",
@@ -542,7 +542,7 @@
     },
     "skills/durham/fal-ideogram-executor/references/style-presets.md": {
       "blob": "467da9520dc62e81d0dc9968a55d1d5548ebffba",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ideogram-executor/references/style-presets.md",
@@ -552,7 +552,7 @@
     },
     "skills/durham/fal-ideogram-executor/scripts/execute-round4.js": {
       "blob": "58fd6caba8e9187df4b585b796a67eb78d03d358",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ideogram-executor/scripts/execute-round4.js",
@@ -562,7 +562,7 @@
     },
     "skills/durham/fal-ideogram-executor/scripts/redownload-round4.js": {
       "blob": "8efe6fe123bb6b2c227f1b27a642a14c7a8b11eb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/fal-ideogram-executor/scripts/redownload-round4.js",
@@ -572,7 +572,7 @@
     },
     "skills/durham/falai-runner/SKILL.md": {
       "blob": "5ebc11f30f56b8e2ff2c63546191e542cdbc8faf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/falai-runner/SKILL.md",
@@ -582,7 +582,7 @@
     },
     "skills/durham/figma-api-bridge/SKILL.md": {
       "blob": "bfa65d29078c7c50aaac5de476e7fd7e44d35bae",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-api-bridge/SKILL.md",
@@ -592,7 +592,7 @@
     },
     "skills/durham/figma-brand-automation/SKILL.md": {
       "blob": "c95b009f4e4ad7a9bf18d72df676054e7dc23441",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/SKILL.md",
@@ -602,7 +602,7 @@
     },
     "skills/durham/figma-brand-automation/src/index.ts": {
       "blob": "4fd5a11caf287a05abe33272cde757afef967b96",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/index.ts",
@@ -612,7 +612,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/allura-brand-guided.ts": {
       "blob": "759303c5ee244b2b8082e78ddcc46714ccf3faf1",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/allura-brand-guided.ts",
@@ -622,7 +622,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/allura-optimized.ts": {
       "blob": "58e7b373e98c3507662ee0d9f83dcb21b716d8ac",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/allura-optimized.ts",
@@ -632,7 +632,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/brand-context-injector.ts": {
       "blob": "a4203cf65e97d4434fb491bf5603cc752f6065dc",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/brand-context-injector.ts",
@@ -642,7 +642,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/brand-guided-workflow.ts": {
       "blob": "6897e0cb4f453f52098866607d58363ab6e077ef",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/brand-guided-workflow.ts",
@@ -652,7 +652,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/index.ts": {
       "blob": "f372d9bf98bdfda1c01c0aeac715a91649caceae",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/index.ts",
@@ -662,7 +662,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/model-selection.ts": {
       "blob": "61b7c7fd4d1c20050c40a12cad55f17095697e66",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/model-selection.ts",
@@ -672,7 +672,7 @@
     },
     "skills/durham/figma-brand-automation/src/prompts/winning-prompts-tracking.ts": {
       "blob": "21eeca3dc39cdc649557824e3811711119392ff5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/prompts/winning-prompts-tracking.ts",
@@ -682,7 +682,7 @@
     },
     "skills/durham/figma-brand-automation/src/tools/analyze-template.ts": {
       "blob": "a0fc3d57f21f1a2ca56a5ca199853d4e57d6b198",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/tools/analyze-template.ts",
@@ -692,7 +692,7 @@
     },
     "skills/durham/figma-brand-automation/src/tools/customize-brand.ts": {
       "blob": "61f25ccd755c9bd9a270f612397a090f76b1872d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/tools/customize-brand.ts",
@@ -702,7 +702,7 @@
     },
     "skills/durham/figma-brand-automation/src/tools/duplicate-template.ts": {
       "blob": "6a665e8ee5ffb54aeadab8d11aed88f39a897153",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/tools/duplicate-template.ts",
@@ -712,7 +712,7 @@
     },
     "skills/durham/figma-brand-automation/src/tools/export-deliverable.ts": {
       "blob": "5a5e533b02fab7612060bd9b131c8528258bbd30",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/tools/export-deliverable.ts",
@@ -722,7 +722,7 @@
     },
     "skills/durham/figma-brand-automation/src/tools/qa-validation.ts": {
       "blob": "fe9c49e06314205d40a0d44020e2736802346a0f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/tools/qa-validation.ts",
@@ -732,7 +732,7 @@
     },
     "skills/durham/figma-brand-automation/src/utils/allura-brain.ts": {
       "blob": "253e8b1a34207749c1c3ec68a4235e2fba14b4a9",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/src/utils/allura-brain.ts",
@@ -742,7 +742,7 @@
     },
     "skills/durham/figma-brand-automation/test/test-brand-guided-workflow.ts": {
       "blob": "9df15924c5025e420c80839b07f2d5b0ab10d99b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-brand-automation/test/test-brand-guided-workflow.ts",
@@ -752,7 +752,7 @@
     },
     "skills/durham/figma-code-connect/SKILL.md": {
       "blob": "74bcdb10a7ea7e29cfe896d8b671151901265cdb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-code-connect/SKILL.md",
@@ -762,7 +762,7 @@
     },
     "skills/durham/figma-code-connect/references/advanced-patterns.md": {
       "blob": "09466578a7c0a8f44950c19df2dc2f137bb79e3d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-code-connect/references/advanced-patterns.md",
@@ -772,7 +772,7 @@
     },
     "skills/durham/figma-code-connect/references/api.md": {
       "blob": "9ab37f406016562d5e191c29b4bf53801fe760a5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-code-connect/references/api.md",
@@ -782,7 +782,7 @@
     },
     "skills/durham/figma-component-sync/SKILL.md": {
       "blob": "ad3533a8ffa53d0900849a7b5bb951b3a675271e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-component-sync/SKILL.md",
@@ -792,7 +792,7 @@
     },
     "skills/durham/figma-create-design-system-rules/SKILL.md": {
       "blob": "9085073c2ccea8f6f5e8099dd84d5aa319599841",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-create-design-system-rules/SKILL.md",
@@ -802,7 +802,7 @@
     },
     "skills/durham/figma-create-new-file/SKILL.md": {
       "blob": "3cea85a90045907d3fe6c5822a8301f8e8ba2b0f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-create-new-file/SKILL.md",
@@ -812,7 +812,7 @@
     },
     "skills/durham/figma-devtools-vision/SKILL.md": {
       "blob": "3354137a80f8cafb37c20953d4d53615bdb8e1dd",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-devtools-vision/SKILL.md",
@@ -822,7 +822,7 @@
     },
     "skills/durham/figma-generate-design/SKILL.md": {
       "blob": "916f7927901b538de51b8574ce7b42da40132f61",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-design/SKILL.md",
@@ -832,7 +832,7 @@
     },
     "skills/durham/figma-generate-library/SKILL.md": {
       "blob": "9771b7d4e47e9c730ebc9fa7a6700a99571833d5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/SKILL.md",
@@ -842,7 +842,7 @@
     },
     "skills/durham/figma-generate-library/references/code-connect-setup.md": {
       "blob": "935a148a28862fb62eef0af537d415f315958ab5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/code-connect-setup.md",
@@ -852,7 +852,7 @@
     },
     "skills/durham/figma-generate-library/references/component-creation.md": {
       "blob": "05ff41cd13f1889b9060bc6097ab514924512164",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/component-creation.md",
@@ -862,7 +862,7 @@
     },
     "skills/durham/figma-generate-library/references/discovery-phase.md": {
       "blob": "e32a309af2018bd2c6c674136afbc90f6a4fac37",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/discovery-phase.md",
@@ -872,7 +872,7 @@
     },
     "skills/durham/figma-generate-library/references/documentation-creation.md": {
       "blob": "eb311a1369dbea2ed1ead1972c704acda7b6b198",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/documentation-creation.md",
@@ -882,7 +882,7 @@
     },
     "skills/durham/figma-generate-library/references/error-recovery.md": {
       "blob": "c7599c46697a79566e11859265d1c1d6876662ee",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/error-recovery.md",
@@ -892,7 +892,7 @@
     },
     "skills/durham/figma-generate-library/references/naming-conventions.md": {
       "blob": "3405e37c07f8b5b85d6fadf0e39c2673de81bdd7",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/naming-conventions.md",
@@ -902,7 +902,7 @@
     },
     "skills/durham/figma-generate-library/references/token-creation.md": {
       "blob": "1fcb03a8c27fa7da9c560580462d265e67d9ee41",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/references/token-creation.md",
@@ -912,7 +912,7 @@
     },
     "skills/durham/figma-generate-library/scripts/bindVariablesToComponent.js": {
       "blob": "bdf917aa6c88143d5ee977dcd8512fd12eec881e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/bindVariablesToComponent.js",
@@ -922,7 +922,7 @@
     },
     "skills/durham/figma-generate-library/scripts/cleanupOrphans.js": {
       "blob": "211548baabc93e4e02271719e947fdecb9f47507",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/cleanupOrphans.js",
@@ -932,7 +932,7 @@
     },
     "skills/durham/figma-generate-library/scripts/createComponentWithVariants.js": {
       "blob": "8e55a5372cfaca6b88319f01b4d45de7b547907e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/createComponentWithVariants.js",
@@ -942,7 +942,7 @@
     },
     "skills/durham/figma-generate-library/scripts/createDocumentationPage.js": {
       "blob": "20430691024e0c3ed735ff92a2daa4d98ad54176",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/createDocumentationPage.js",
@@ -952,7 +952,7 @@
     },
     "skills/durham/figma-generate-library/scripts/createSemanticTokens.js": {
       "blob": "c221b798ae51e76cd7236defe1cef5f5308922a8",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/createSemanticTokens.js",
@@ -962,7 +962,7 @@
     },
     "skills/durham/figma-generate-library/scripts/createVariableCollection.js": {
       "blob": "f853a28414ca64aae0bb06b84ac28f560f1b984c",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/createVariableCollection.js",
@@ -972,7 +972,7 @@
     },
     "skills/durham/figma-generate-library/scripts/inspectFileStructure.js": {
       "blob": "c6bac5a5b0d849fd885ba2d9406c911348a8516e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/inspectFileStructure.js",
@@ -982,7 +982,7 @@
     },
     "skills/durham/figma-generate-library/scripts/rehydrateState.js": {
       "blob": "4e4c1110723467c648fd24e55d280219b4cb9500",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/rehydrateState.js",
@@ -992,7 +992,7 @@
     },
     "skills/durham/figma-generate-library/scripts/validateCreation.js": {
       "blob": "e607d0430560189f469bae3b0a3e528de4cfa0f6",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-generate-library/scripts/validateCreation.js",
@@ -1002,7 +1002,7 @@
     },
     "skills/durham/figma-implement-design/SKILL.md": {
       "blob": "2b1df1735746eed237c463a092940030ebb64b8d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-implement-design/SKILL.md",
@@ -1012,7 +1012,7 @@
     },
     "skills/durham/figma-use/SKILL.md": {
       "blob": "3d8db65ff7d263e2b5ebc23e9b7ddf810492e662",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/SKILL.md",
@@ -1022,7 +1022,7 @@
     },
     "skills/durham/figma-use/references/api-reference.md": {
       "blob": "b2f28c676876390d204eee76cd5e231d0ba1b78d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/api-reference.md",
@@ -1032,7 +1032,7 @@
     },
     "skills/durham/figma-use/references/common-patterns.md": {
       "blob": "37f24a973f430bd48e281cce490181c38e448a69",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/common-patterns.md",
@@ -1042,7 +1042,7 @@
     },
     "skills/durham/figma-use/references/component-patterns.md": {
       "blob": "2e032ddee5b29afadb37598e0f5a65ad2da6b957",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/component-patterns.md",
@@ -1052,7 +1052,7 @@
     },
     "skills/durham/figma-use/references/effect-style-patterns.md": {
       "blob": "40ebad2b4d2335c10556e50cbd369658327abc4e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/effect-style-patterns.md",
@@ -1062,7 +1062,7 @@
     },
     "skills/durham/figma-use/references/gotchas.md": {
       "blob": "10dee179e18e67dc1ad65f4c4beb6722f701b16f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/gotchas.md",
@@ -1072,7 +1072,7 @@
     },
     "skills/durham/figma-use/references/plugin-api-patterns.md": {
       "blob": "0c2a0b4c5592077a16b6a9dff7a7f967dec100dd",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/plugin-api-patterns.md",
@@ -1082,7 +1082,7 @@
     },
     "skills/durham/figma-use/references/plugin-api-standalone.d.ts": {
       "blob": "1b5c59ad7693f973da8a1a70d1893f062799a105",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/plugin-api-standalone.d.ts",
@@ -1092,7 +1092,7 @@
     },
     "skills/durham/figma-use/references/plugin-api-standalone.index.md": {
       "blob": "27e1a4c4f36382b7c17222bbab9046870fb6882e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/plugin-api-standalone.index.md",
@@ -1102,7 +1102,7 @@
     },
     "skills/durham/figma-use/references/text-style-patterns.md": {
       "blob": "964e6734fe49790504fe7dd9343e1159e590782f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/text-style-patterns.md",
@@ -1112,7 +1112,7 @@
     },
     "skills/durham/figma-use/references/validation-and-recovery.md": {
       "blob": "56acf9b67969dab5174c3ba685f0f68b01373981",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/validation-and-recovery.md",
@@ -1122,7 +1122,7 @@
     },
     "skills/durham/figma-use/references/variable-patterns.md": {
       "blob": "04acfe4fbe25c21b1c5b6e7c8d4a78ab9ae18e2b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/variable-patterns.md",
@@ -1132,7 +1132,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-components--creating.md": {
       "blob": "62c4ad97a856175851b6d971292ad26a2283fa88",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-components--creating.md",
@@ -1142,7 +1142,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-components--using.md": {
       "blob": "f1aeae9498d7bd8e07e856d9cfec1d2672a18e80",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-components--using.md",
@@ -1152,7 +1152,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-components.md": {
       "blob": "71f28c0eaaa40eb807616a097058967091612c08",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-components.md",
@@ -1162,7 +1162,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-effect-styles.md": {
       "blob": "0e52ca45f39ca36790900d256b425cdeb691ab2b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-effect-styles.md",
@@ -1172,7 +1172,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-text-styles.md": {
       "blob": "9d5b2a632b0094ce26ca461c45e7cf7808740fbb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-text-styles.md",
@@ -1182,7 +1182,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-variables--creating.md": {
       "blob": "ab2968ac8e4fbca3ecb14f2732c79a8ae8408532",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-variables--creating.md",
@@ -1192,7 +1192,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-variables--using.md": {
       "blob": "4fbddd8d9461e3c2ad9a3d0655c6be445e249116",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-variables--using.md",
@@ -1202,7 +1202,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds-variables.md": {
       "blob": "64058312a16912b1105bd7f8b6b2ba65ca55a8ae",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds-variables.md",
@@ -1212,7 +1212,7 @@
     },
     "skills/durham/figma-use/references/working-with-design-systems/wwds.md": {
       "blob": "4b335a5866c52548a533e4f2bf6d75c6ab76ac67",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/figma-use/references/working-with-design-systems/wwds.md",
@@ -1222,7 +1222,7 @@
     },
     "skills/durham/frontend-design/SKILL.md": {
       "blob": "1f8db94bca3ee9809d5dfc729582375084a28e3a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/frontend-design/SKILL.md",
@@ -1232,7 +1232,7 @@
     },
     "skills/durham/global-mcp-lookup/SKILL.md": {
       "blob": "520b291f29dad2c3883c0c53099741fe95a13359",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/global-mcp-lookup/SKILL.md",
@@ -1242,7 +1242,7 @@
     },
     "skills/durham/global-mcp-lookup/references/mcp-registry.yaml": {
       "blob": "571718e5ef60595390d99d1139304587d1fe969c",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/global-mcp-lookup/references/mcp-registry.yaml",
@@ -1252,7 +1252,7 @@
     },
     "skills/durham/impeccable/SKILL.md": {
       "blob": "ed774695ae6423b0f79b54277ace101f4a25f01f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/SKILL.md",
@@ -1262,7 +1262,7 @@
     },
     "skills/durham/impeccable/agents/openai.yaml": {
       "blob": "ee6cae7726ef85d3744c1b978608668a07aefeef",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/agents/openai.yaml",
@@ -1272,7 +1272,7 @@
     },
     "skills/durham/impeccable/reference/adapt.md": {
       "blob": "249653d4c2a4f88144b11cf2b8a0d634c13ccd00",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/adapt.md",
@@ -1282,7 +1282,7 @@
     },
     "skills/durham/impeccable/reference/animate.md": {
       "blob": "b38e140feca037a4ae72582a9b3817f90b85c7da",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/animate.md",
@@ -1292,7 +1292,7 @@
     },
     "skills/durham/impeccable/reference/audit.md": {
       "blob": "00ac34bc7cd77b037b626abde69422286b88b1bf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/audit.md",
@@ -1302,7 +1302,7 @@
     },
     "skills/durham/impeccable/reference/bolder.md": {
       "blob": "e374312edaeb53a519403b6e04972d1d4c7e44ef",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/bolder.md",
@@ -1312,7 +1312,7 @@
     },
     "skills/durham/impeccable/reference/brand.md": {
       "blob": "e5669063c854add90e3d3ddee3d464655d0a2160",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/brand.md",
@@ -1322,7 +1322,7 @@
     },
     "skills/durham/impeccable/reference/clarify.md": {
       "blob": "dc116e74575e8aa3bd68c17a7e5c0cfa798262b6",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/clarify.md",
@@ -1332,7 +1332,7 @@
     },
     "skills/durham/impeccable/reference/cognitive-load.md": {
       "blob": "313df166b62d55cbe6bd9c117834259f1a1e08f3",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/cognitive-load.md",
@@ -1342,7 +1342,7 @@
     },
     "skills/durham/impeccable/reference/color-and-contrast.md": {
       "blob": "88a15cce5de91be84a015d00ab921b3b64d9af4b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/color-and-contrast.md",
@@ -1352,7 +1352,7 @@
     },
     "skills/durham/impeccable/reference/colorize.md": {
       "blob": "3acc1a5894dcbbb41731370005f459716e74dfb2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/colorize.md",
@@ -1362,7 +1362,7 @@
     },
     "skills/durham/impeccable/reference/craft.md": {
       "blob": "337b5c9b7bd9529f8364fd8f162084120b6b4845",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/craft.md",
@@ -1372,7 +1372,7 @@
     },
     "skills/durham/impeccable/reference/critique.md": {
       "blob": "82aeb3ecfeec166822fe61609216d01ca7b7560f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/critique.md",
@@ -1382,7 +1382,7 @@
     },
     "skills/durham/impeccable/reference/delight.md": {
       "blob": "21fcd568f76fefc89d8641080af2a79ab96defc5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/delight.md",
@@ -1392,7 +1392,7 @@
     },
     "skills/durham/impeccable/reference/distill.md": {
       "blob": "2779b8488cf9eef5ab0e44f47463c7b273e3d7d2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/distill.md",
@@ -1402,7 +1402,7 @@
     },
     "skills/durham/impeccable/reference/document.md": {
       "blob": "d5ea23a00d551609ddd9b36041d8ea4d24a0fd07",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/document.md",
@@ -1412,7 +1412,7 @@
     },
     "skills/durham/impeccable/reference/extract.md": {
       "blob": "5c573e00e3ff8e4ad4050b921315202b295f0bdd",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/extract.md",
@@ -1422,7 +1422,7 @@
     },
     "skills/durham/impeccable/reference/harden.md": {
       "blob": "fad8813db6c796118d889a990363d1137a23e69d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/harden.md",
@@ -1432,7 +1432,7 @@
     },
     "skills/durham/impeccable/reference/heuristics-scoring.md": {
       "blob": "fd5b1b08b7d194cedbbc87d4b5daeefd0628f4f9",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/heuristics-scoring.md",
@@ -1442,7 +1442,7 @@
     },
     "skills/durham/impeccable/reference/interaction-design.md": {
       "blob": "19d6809a8fbd6e062adc26c0ca469f07371edcba",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/interaction-design.md",
@@ -1452,7 +1452,7 @@
     },
     "skills/durham/impeccable/reference/layout.md": {
       "blob": "5e80220811690f7a6ebc6bbd9fb466d16d6764a6",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/layout.md",
@@ -1462,7 +1462,7 @@
     },
     "skills/durham/impeccable/reference/live.md": {
       "blob": "74b9dceb192ee315b40389636fc422715b2ddad2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/live.md",
@@ -1472,7 +1472,7 @@
     },
     "skills/durham/impeccable/reference/motion-design.md": {
       "blob": "2f11167fc45d395fc25d45489cbeb0d88daac359",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/motion-design.md",
@@ -1482,7 +1482,7 @@
     },
     "skills/durham/impeccable/reference/onboard.md": {
       "blob": "257c7d0f000890e9f25f77684c2c36f03bdbbbcc",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/onboard.md",
@@ -1492,7 +1492,7 @@
     },
     "skills/durham/impeccable/reference/optimize.md": {
       "blob": "b7f0152e4f65cb205370e81a5f5b2e31026f6009",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/optimize.md",
@@ -1502,7 +1502,7 @@
     },
     "skills/durham/impeccable/reference/overdrive.md": {
       "blob": "7cfd7379a38085d44ba7b04f3c2529c4f0270c0c",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/overdrive.md",
@@ -1512,7 +1512,7 @@
     },
     "skills/durham/impeccable/reference/personas.md": {
       "blob": "5e91eb651f86c6ab0a3cd2fa29625202fd4010c2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/personas.md",
@@ -1522,7 +1522,7 @@
     },
     "skills/durham/impeccable/reference/polish.md": {
       "blob": "78e6b7255ed557b4ad2f58236056a380d9c2c6d9",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/polish.md",
@@ -1532,7 +1532,7 @@
     },
     "skills/durham/impeccable/reference/product.md": {
       "blob": "c28644cdf5edf8cab5a639cd07bd071c259d77f1",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/product.md",
@@ -1542,7 +1542,7 @@
     },
     "skills/durham/impeccable/reference/quieter.md": {
       "blob": "73497fc96b6dfe3f9dadf02f372cca99e145e200",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/quieter.md",
@@ -1552,7 +1552,7 @@
     },
     "skills/durham/impeccable/reference/responsive-design.md": {
       "blob": "74f5a10013f1f37e1938c20b9274be927d82db81",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/responsive-design.md",
@@ -1562,7 +1562,7 @@
     },
     "skills/durham/impeccable/reference/shape.md": {
       "blob": "1ac6c86fde549bdc379fdc1a5c282fa441369e86",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/shape.md",
@@ -1572,7 +1572,7 @@
     },
     "skills/durham/impeccable/reference/spatial-design.md": {
       "blob": "27c8e74f3d6a3a52133d28d9e07f76b717bc67bc",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/spatial-design.md",
@@ -1582,7 +1582,7 @@
     },
     "skills/durham/impeccable/reference/teach.md": {
       "blob": "d65c9d760629571475ccdea7a89ca4f7e3f945cf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/teach.md",
@@ -1592,7 +1592,7 @@
     },
     "skills/durham/impeccable/reference/typeset.md": {
       "blob": "b0e30f579b5bb0d98b586cfa4e78eef22bbbe7e5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/typeset.md",
@@ -1602,7 +1602,7 @@
     },
     "skills/durham/impeccable/reference/typography.md": {
       "blob": "7134051a837bd7886ed00155dd8825b9cca7f9f4",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/typography.md",
@@ -1612,7 +1612,7 @@
     },
     "skills/durham/impeccable/reference/ux-writing.md": {
       "blob": "42109217a651769c6a9de4475a87cc2855581f6a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/reference/ux-writing.md",
@@ -1622,7 +1622,7 @@
     },
     "skills/durham/impeccable/scripts/cleanup-deprecated.mjs": {
       "blob": "6aee4710ae1f0e0651389ea0412a9afe0abbdaff",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/cleanup-deprecated.mjs",
@@ -1632,7 +1632,7 @@
     },
     "skills/durham/impeccable/scripts/command-metadata.json": {
       "blob": "1488bd5f1b9b6102e82589209b7c8ec4d0e07e7a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/command-metadata.json",
@@ -1642,7 +1642,7 @@
     },
     "skills/durham/impeccable/scripts/design-parser.mjs": {
       "blob": "b687566409bf54fcfd3689ac1e1a2684a4792a32",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/design-parser.mjs",
@@ -1652,7 +1652,7 @@
     },
     "skills/durham/impeccable/scripts/detect-csp.mjs": {
       "blob": "a13505d23ba3adf679090ce6cd9e20d68bcb12eb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/detect-csp.mjs",
@@ -1662,7 +1662,7 @@
     },
     "skills/durham/impeccable/scripts/is-generated.mjs": {
       "blob": "165e1ca8075cdb23512a025da1d8b87ab40523b7",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/is-generated.mjs",
@@ -1672,7 +1672,7 @@
     },
     "skills/durham/impeccable/scripts/live-accept.mjs": {
       "blob": "f3cb1b484a427376676c6b4c94ca9bf6142e3549",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-accept.mjs",
@@ -1682,7 +1682,7 @@
     },
     "skills/durham/impeccable/scripts/live-browser.js": {
       "blob": "3da76bb96ca711d514a8d6fe0ab15bb2e9d61529",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-browser.js",
@@ -1692,7 +1692,7 @@
     },
     "skills/durham/impeccable/scripts/live-inject.mjs": {
       "blob": "1d2ae12f722e4c44dcf8ea12fd7a1359e4867051",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-inject.mjs",
@@ -1702,7 +1702,7 @@
     },
     "skills/durham/impeccable/scripts/live-poll.mjs": {
       "blob": "eb8f1586af561f2d12ffa06354a83a119957220c",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-poll.mjs",
@@ -1712,7 +1712,7 @@
     },
     "skills/durham/impeccable/scripts/live-server.mjs": {
       "blob": "90614fbf7404be28213730930d197d9039535764",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-server.mjs",
@@ -1722,7 +1722,7 @@
     },
     "skills/durham/impeccable/scripts/live-wrap.mjs": {
       "blob": "a5769a50a4fb673b3e110664dbab5ad43bcaf24f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live-wrap.mjs",
@@ -1732,7 +1732,7 @@
     },
     "skills/durham/impeccable/scripts/live.mjs": {
       "blob": "befbdb8ed7e12fc6043a6d5e55bd28d5ac618a5f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/live.mjs",
@@ -1742,7 +1742,7 @@
     },
     "skills/durham/impeccable/scripts/load-context.mjs": {
       "blob": "dca23c1f8101a69ce2a7223e6fa1f726f672ed86",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/load-context.mjs",
@@ -1752,7 +1752,7 @@
     },
     "skills/durham/impeccable/scripts/modern-screenshot.umd.js": {
       "blob": "a9c5208f6b141d3bafdb8eb843d6fcbdcf23e370",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/modern-screenshot.umd.js",
@@ -1762,7 +1762,7 @@
     },
     "skills/durham/impeccable/scripts/pin.mjs": {
       "blob": "ba02783fbdfc11f9e4a29fb797fdef25cca97af2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/impeccable/scripts/pin.mjs",
@@ -1772,7 +1772,7 @@
     },
     "skills/durham/logo-direction-generator/SKILL.md": {
       "blob": "3e88955d71c6f4183455e670c084d5c0380a54cf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/logo-direction-generator/SKILL.md",
@@ -1782,7 +1782,7 @@
     },
     "skills/durham/logo-from-brand-guidelines/SKILL.md": {
       "blob": "5db727b3aeb0811277a38ee3d9132c38dad54617",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/logo-from-brand-guidelines/SKILL.md",
@@ -1792,7 +1792,7 @@
     },
     "skills/durham/mcp-docker-memory-system/SKILL.md": {
       "blob": "d3f29ba55c6784022e846eff87fc288497b3aae4",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-docker-memory-system/SKILL.md",
@@ -1802,7 +1802,7 @@
     },
     "skills/durham/mcp-docker-memory/SKILL.md": {
       "blob": "e2049f7fbb4e81eab8ef4518b1d7491899e43f45",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-docker-memory/SKILL.md",
@@ -1812,7 +1812,7 @@
     },
     "skills/durham/mcp-docker/SKILL.md": {
       "blob": "7948ad26b6a64cc23924df96b2d9c683ea84ec84",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-docker/SKILL.md",
@@ -1822,7 +1822,7 @@
     },
     "skills/durham/mcp-docker/references/api_reference.md": {
       "blob": "e7b40334dcf2f1d4d1e3f9ab8f4c01602c38d043",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-docker/references/api_reference.md",
@@ -1832,7 +1832,7 @@
     },
     "skills/durham/mcp-docker/references/docker-mcp-catalog.md": {
       "blob": "d4090531ac332acc87277c205d633cdb9c1185ac",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-docker/references/docker-mcp-catalog.md",
@@ -1842,7 +1842,7 @@
     },
     "skills/durham/mcp-libre/SKILL.md": {
       "blob": "e5961dd40ee1f9c540d1c63c02289f4563fe0ff7",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-libre/SKILL.md",
@@ -1852,7 +1852,7 @@
     },
     "skills/durham/mcp-validation-gate/SKILL.md": {
       "blob": "df60dcd7f80947cbdf4bca926e061225c8a91682",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-validation-gate/SKILL.md",
@@ -1862,7 +1862,7 @@
     },
     "skills/durham/mcp-validation-gate/validate-mcp.js": {
       "blob": "4648d199a3fdd97d67dfdcaf6ba92defeed2e4f5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100755",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/mcp-validation-gate/validate-mcp.js",
@@ -1872,7 +1872,7 @@
     },
     "skills/durham/memory-client/ONBOARDING.md": {
       "blob": "05a7c4f069c315377f5f7e701dac39845970a6d0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/memory-client/ONBOARDING.md",
@@ -1882,7 +1882,7 @@
     },
     "skills/durham/memory-client/SKILL.md": {
       "blob": "e2bfec537ca0cfdd1956408a7e47f3cb8cad3d38",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/memory-client/SKILL.md",
@@ -1892,7 +1892,7 @@
     },
     "skills/durham/memory-client/metadata.json": {
       "blob": "83780b7884039e96353d7fe715fd221dc2c6d473",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/memory-client/metadata.json",
@@ -1902,7 +1902,7 @@
     },
     "skills/durham/naming-pack/SKILL.md": {
       "blob": "63e8952712b2a33deb469b62a351c715a66d4803",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/naming-pack/SKILL.md",
@@ -1912,7 +1912,7 @@
     },
     "skills/durham/notion-brand-publisher/SKILL.md": {
       "blob": "6c58bd440ce6af67c19ab78365eab5df98443e9b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/notion-brand-publisher/SKILL.md",
@@ -1922,7 +1922,7 @@
     },
     "skills/durham/notion-policy-reader/SKILL.md": {
       "blob": "d139a804c0830f54b1e37cfd2a8ce68f4112c02b",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/notion-policy-reader/SKILL.md",
@@ -1932,7 +1932,7 @@
     },
     "skills/durham/omni-tool-compose/SKILL.md": {
       "blob": "7fde42aac0fd2283e953519dc1fc3eaae130e413",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/omni-tool-compose/SKILL.md",
@@ -1942,7 +1942,7 @@
     },
     "skills/durham/party-mode/SKILL.md": {
       "blob": "78e419909fae1c08e515b92383df0aaa596d9aae",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/party-mode/SKILL.md",
@@ -1952,7 +1952,7 @@
     },
     "skills/durham/party-mode/mode-detector.js": {
       "blob": "c3fd7908a455c8d1c65613411d81c853746307d5",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/party-mode/mode-detector.js",
@@ -1962,7 +1962,7 @@
     },
     "skills/durham/party-mode/parallel-dispatcher.js": {
       "blob": "dcc3fe0b7defaafbc4b53d560e3b5dbcffd42fe2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/party-mode/parallel-dispatcher.js",
@@ -1972,7 +1972,7 @@
     },
     "skills/durham/party-mode/team-durham-roster.json": {
       "blob": "11705c464434972ca1652602d7c89be099834243",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/party-mode/team-durham-roster.json",
@@ -1982,7 +1982,7 @@
     },
     "skills/durham/penpot-cms-asset-pipeline/SKILL.md": {
       "blob": "84a1e0c367f230696508347c78ce42c4f6d77bca",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-cms-asset-pipeline/SKILL.md",
@@ -1992,7 +1992,7 @@
     },
     "skills/durham/penpot-create-board/SKILL.md": {
       "blob": "f47c34d9ed88e6eb380fdc5c03c6824921f4f649",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-create-board/SKILL.md",
@@ -2002,7 +2002,7 @@
     },
     "skills/durham/penpot-export-handoff/SKILL.md": {
       "blob": "47abe6f028f39bc16ae8a5f8ca16b5445c6945a7",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-export-handoff/SKILL.md",
@@ -2012,7 +2012,7 @@
     },
     "skills/durham/penpot-foundations/SKILL.md": {
       "blob": "f8ca8a8b0fc998f6e937d61dc1b653da059e343f",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-foundations/SKILL.md",
@@ -2022,7 +2022,7 @@
     },
     "skills/durham/penpot-implement-mockups/SKILL.md": {
       "blob": "c3c52412f4b80b02109c3866211b7dcdaf456435",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-implement-mockups/SKILL.md",
@@ -2032,7 +2032,7 @@
     },
     "skills/durham/penpot-uiux-design/SKILL.md": {
       "blob": "b8f589e44af0169c002ea4fa56805354ca767ca2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-uiux-design/SKILL.md",
@@ -2042,7 +2042,7 @@
     },
     "skills/durham/penpot-uiux-design/references/accessibility.md": {
       "blob": "2482b9da2be3219e2da7c5b376bddec7eb451137",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-uiux-design/references/accessibility.md",
@@ -2052,7 +2052,7 @@
     },
     "skills/durham/penpot-uiux-design/references/component-patterns.md": {
       "blob": "3ebc80449d850ea59c39cefb7d712860d7699688",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-uiux-design/references/component-patterns.md",
@@ -2062,7 +2062,7 @@
     },
     "skills/durham/penpot-uiux-design/references/platform-guidelines.md": {
       "blob": "92f9890d561f8aa969aa4e6652360f6732b14c54",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-uiux-design/references/platform-guidelines.md",
@@ -2072,7 +2072,7 @@
     },
     "skills/durham/penpot-uiux-design/references/setup-troubleshooting.md": {
       "blob": "acd321f2a0d1fcdb81f99c435b397b625806a9d0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-uiux-design/references/setup-troubleshooting.md",
@@ -2082,7 +2082,7 @@
     },
     "skills/durham/penpot-upload-media/SKILL.md": {
       "blob": "37cc252e8cd188e0d997ff8ada799cbd61857c99",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-upload-media/SKILL.md",
@@ -2092,7 +2092,7 @@
     },
     "skills/durham/penpot-use/SKILL.md": {
       "blob": "d155e38fc3c270670fe0304fcc440e88ad16dc52",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/penpot-use/SKILL.md",
@@ -2102,7 +2102,7 @@
     },
     "skills/durham/skill-creator/SKILL.md": {
       "blob": "60a0dd1a00fab4e368fd2376c66d0b3e74c2f91a",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/skill-creator/SKILL.md",
@@ -2112,7 +2112,7 @@
     },
     "skills/durham/source-command-dashboard/SKILL.md": {
       "blob": "b5ab75e567db0d9a8c54270e8a2c8d79821ae7c3",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-dashboard/SKILL.md",
@@ -2122,7 +2122,7 @@
     },
     "skills/durham/source-command-end-session/SKILL.md": {
       "blob": "e8721118553546a40acf5f881752958e92ef86e0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-end-session/SKILL.md",
@@ -2132,7 +2132,7 @@
     },
     "skills/durham/source-command-orchestrate/SKILL.md": {
       "blob": "0e579017293c758aece55e1bf60c5e10d4e4b524",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-orchestrate/SKILL.md",
@@ -2142,7 +2142,7 @@
     },
     "skills/durham/source-command-party/SKILL.md": {
       "blob": "7c2878deaef19e1914ff5ced5037e76f51f2557e",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-party/SKILL.md",
@@ -2152,7 +2152,7 @@
     },
     "skills/durham/source-command-query/SKILL.md": {
       "blob": "9d2e01e4292b588779010320403c38c7181b34d2",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-query/SKILL.md",
@@ -2161,18 +2161,18 @@
       "sourcePath": "skills/source-command-query/SKILL.md"
     },
     "skills/durham/source-command-quick-commands/SKILL.md": {
-      "blob": "ab93507e4c5e73c0e6467d48bec6cc1a2baa79e8",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "blob": "d77a10799a5110bafebf83cd7bb46377371ee3c2",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-quick-commands/SKILL.md",
-      "sha256": "0be5cf4aed2a4852919bf8786dddd5906da5facd65d1b800bf25b086f83285dc",
+      "sha256": "a860882dbdf0fc727836d98abf44919e3b28e1ccc4146a9faf3c10e8fd76b67a",
       "source": "durham",
       "sourcePath": "skills/source-command-quick-commands/SKILL.md"
     },
     "skills/durham/source-command-start-session/SKILL.md": {
       "blob": "2acbaf442f36beacc6c25d759d4290e9804a765c",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-start-session/SKILL.md",
@@ -2182,7 +2182,7 @@
     },
     "skills/durham/source-command-status/SKILL.md": {
       "blob": "02c6fea2c9eb15c1eaab63897b0f15af9ed9b855",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-status/SKILL.md",
@@ -2192,7 +2192,7 @@
     },
     "skills/durham/source-command-sync-governance/SKILL.md": {
       "blob": "33b4ee69d2fbb29fb1de36678560bae73f39b7e0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-sync-governance/SKILL.md",
@@ -2202,7 +2202,7 @@
     },
     "skills/durham/source-command-task/SKILL.md": {
       "blob": "a82a1dd95507eeb332a787f82091dc197214f957",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-task/SKILL.md",
@@ -2212,7 +2212,7 @@
     },
     "skills/durham/source-command-validate/SKILL.md": {
       "blob": "afd0f755a9ec74f8cb516ad20cd13b8b0cef2a29",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/source-command-validate/SKILL.md",
@@ -2222,7 +2222,7 @@
     },
     "skills/durham/stakeholder-alignment/SKILL.md": {
       "blob": "25b568b5b7c20f897b0a800315361e93d6f116bf",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/stakeholder-alignment/SKILL.md",
@@ -2232,7 +2232,7 @@
     },
     "skills/durham/task-management/SKILL.md": {
       "blob": "edf8d51c41984f70b5b036e2f8424631ad5a98bb",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/task-management/SKILL.md",
@@ -2242,7 +2242,7 @@
     },
     "skills/durham/team-durham-agent-router/SKILL.md": {
       "blob": "3461a4ee0fb0be7ad9946c3bcdac2e75a4a64651",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/team-durham-agent-router/SKILL.md",
@@ -2252,7 +2252,7 @@
     },
     "skills/durham/team-durham-bmad/SKILL.md": {
       "blob": "1cbc3669d5bf36bb87b1b9632ab1711178d957d0",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/team-durham-bmad/SKILL.md",
@@ -2261,18 +2261,18 @@
       "sourcePath": "skills/team-durham-bmad/SKILL.md"
     },
     "skills/durham/team-durham/SKILL.md": {
-      "blob": "d3a89b3948c2ae6fe38626ded98a073f3c9dd22d",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "blob": "b3f61d48cbb323e237595899f3fefc2e31a6d126",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/team-durham/SKILL.md",
-      "sha256": "22b7fd8f8aa73a9cdb68275adfa426c61444c7d2176f437e413bd202bb4c32b5",
+      "sha256": "e281d09f7e6fe4d6f6f5ff29b8632c65126f9746c045621a6d957af4354f3ba7",
       "source": "durham",
       "sourcePath": "skills/team-durham/SKILL.md"
     },
     "skills/durham/trademark-screening/SKILL.md": {
       "blob": "a0be3a11d6eda24d8ec8f6e2162bcfdb8596fc67",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/trademark-screening/SKILL.md",
@@ -2282,7 +2282,7 @@
     },
     "skills/durham/workspace-guide/SKILL.md": {
       "blob": "2663338ee3a33e669458467345c3bf7371027344",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
       "resolvedSourcePath": "skills/workspace-guide/SKILL.md",
@@ -2292,7 +2292,7 @@
     },
     "skills/ram/.team-ram-generated-skills.json": {
       "blob": "e2ac8e788e7d940ef440efeb2e43d5c9b93e4ec4",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/.team-ram-generated-skills.json",
@@ -2302,7 +2302,7 @@
     },
     "skills/ram/allura-memory-skill/SKILL.md": {
       "blob": "10c695a83e9e2e7b5580d4369d4278dae7677865",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-memory-skill/SKILL.md",
@@ -2311,18 +2311,18 @@
       "sourcePath": "skills/allura-memory-skill/SKILL.md"
     },
     "skills/ram/allura-menu/SKILL.md": {
-      "blob": "d5f6aac5d378f52136f2f0aa638483a9b098b916",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "blob": "3a3d436ccb8bd4315d864c34faeb4e536ccbb188",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-menu/SKILL.md",
-      "sha256": "a560964725848e7aec8627768594eb4008d416d422a4e95a8a7c8efbc8b42343",
+      "sha256": "eeb2b1334d284e8e754d3a3d45c52da80ff5e24989e121db4e227044412c91b9",
       "source": "ram",
       "sourcePath": "skills/allura-menu/SKILL.md"
     },
     "skills/ram/allura-menu/metadata.json": {
       "blob": "cac105e408b688d93c4c3ee1442f0032dd07bf8b",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/allura-menu/metadata.json",
@@ -2332,7 +2332,7 @@
     },
     "skills/ram/code-review/SKILL.md": {
       "blob": "177ce7b5ab9fd5919fb31331c9cc6b271c27d72b",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/code-review/SKILL.md",
@@ -2342,7 +2342,7 @@
     },
     "skills/ram/code-review/metadata.json": {
       "blob": "62f568a2331359a8bf2349a9086c73a88ad2dc54",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/code-review/metadata.json",
@@ -2352,7 +2352,7 @@
     },
     "skills/ram/multi-search/SKILL.md": {
       "blob": "b700801b6be8fb4c5ea2f8587e4cbe8559245bca",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/multi-search/SKILL.md",
@@ -2362,7 +2362,7 @@
     },
     "skills/ram/multi-search/metadata.json": {
       "blob": "be2df9f841c5d0dfbb6457b9e75a0857cdd9a87f",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/multi-search/metadata.json",
@@ -2372,7 +2372,7 @@
     },
     "skills/ram/party-mode/SKILL.md": {
       "blob": "7d126d592240d3584e879a05b3b0fd42e3b75a0f",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/party-mode/SKILL.md",
@@ -2382,7 +2382,7 @@
     },
     "skills/ram/party-mode/metadata.json": {
       "blob": "35739da3a1c24b952f350fc91d0d2ce55762f2ee",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/party-mode/metadata.json",
@@ -2392,7 +2392,7 @@
     },
     "skills/ram/roundtable/SKILL.md": {
       "blob": "cb77cf36f53975f390f45e0ced81b5c0c0c84527",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/roundtable/SKILL.md",
@@ -2402,7 +2402,7 @@
     },
     "skills/ram/roundtable/references/roundtable-vs-party-mode.md": {
       "blob": "b20be6879d7f3a10c19e025da84113cdda6c76f7",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/roundtable/references/roundtable-vs-party-mode.md",
@@ -2412,7 +2412,7 @@
     },
     "skills/ram/systematic-debugging-memory/SKILL.md": {
       "blob": "f5da8bacef444cef16d723d01ef20b1f9665261e",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/systematic-debugging-memory/SKILL.md",
@@ -2422,7 +2422,7 @@
     },
     "skills/ram/systematic-debugging-memory/metadata.json": {
       "blob": "7c38e5b00b815d88396266781f30de4855d827c8",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/systematic-debugging-memory/metadata.json",
@@ -2431,18 +2431,18 @@
       "sourcePath": "skills/systematic-debugging-memory/metadata.json"
     },
     "skills/ram/team-ram-cowork/SKILL.md": {
-      "blob": "286e4e9fb44af8644bff158f8357d848ebe366dd",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "blob": "907a332104d4432731291c18b2197c440387b6f8",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-cowork/SKILL.md",
-      "sha256": "601bb9d0159c9f2762d1c9a15adca507a1bcf500bedca0f4a0069b7d32651648",
+      "sha256": "b76b32ebd3a3852a2e7e037eb9697d1994fb167272f9283a7164b81644042e23",
       "source": "ram",
       "sourcePath": "skills/team-ram-cowork/SKILL.md"
     },
     "skills/ram/team-ram-doctor/SKILL.md": {
       "blob": "b3a141d716f1afbac7ce4b30a031c86e6c18e571",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-doctor/SKILL.md",
@@ -2452,7 +2452,7 @@
     },
     "skills/ram/team-ram-doctor/references/diagnostics.md": {
       "blob": "354b3b2b73c04fcbb127a56398c165d7f2761c43",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-doctor/references/diagnostics.md",
@@ -2462,7 +2462,7 @@
     },
     "skills/ram/team-ram-setup/SKILL.md": {
       "blob": "4c05e90b02e61552fadf7acbde003a43a2d0dad8",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-setup/SKILL.md",
@@ -2472,7 +2472,7 @@
     },
     "skills/ram/team-ram-setup/references/setup-checklist.md": {
       "blob": "75939042e82e7884289bf0f825167e513806d6dc",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "mode": "100644",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
       "resolvedSourcePath": "skills/team-ram-setup/references/setup-checklist.md",
@@ -2483,22 +2483,22 @@
   },
   "generatedBy": "scripts/sync_sources.py",
   "schemaVersion": 1,
-  "sourceLocksSha256": "10bc3772e8fa4c8e43ffed030bfe70a45b76cf296f3072a819bcabf157280b67",
+  "sourceLocksSha256": "ffc2c5799338c3c760e2e65beb058c7be46a3c59b42ce5c7e3f5e9311f6c1b3a",
   "sources": {
     "cowork": {
-      "commit": "cd43260b5d45a0415f862caadc9dbf7b3b954514",
+      "commit": "4715fd390fb3ce26b8e3c4b6618805a6b198d246",
       "repository": "https://github.com/Allura-Ecosystem/allura-plugins.git",
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
     "durham": {
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
-      "version": "0.4.3"
+      "version": "0.4.5"
     },
     "ram": {
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "version": "0.6.2"
+      "version": "0.6.3"
     }
   }
 }

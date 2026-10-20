@@ -3,8 +3,8 @@
   "sources": {
     "ram": {
       "repository": "https://github.com/Allura-Ecosystem/allura-team-ram.git",
-      "commit": "3d806a0a08b91986d5040a12d2981f1906793201",
-      "version": "0.6.2",
+      "commit": "b0340dfa040e852df4e056a944ad673c5db65270",
+      "version": "0.6.3",
       "defaultDirectory": "../allura-team-ram-menu-20261019",
       "mappings": [
         {
@@ -60,8 +60,8 @@
     },
     "durham": {
       "repository": "https://github.com/Allura-Ecosystem/team-durham.git",
-      "commit": "d3b86da46c1a65eebcb797b0d6fef51a0723407c",
-      "version": "0.4.3",
+      "commit": "ec023741721a9e1a164f4d4a969e9cb892af2501",
+      "version": "0.4.5",
       "defaultDirectory": "../team-durham",
       "mappings": [
         {
@@ -85,8 +85,8 @@
     },
     "cowork": {
       "repository": "https://github.com/Allura-Ecosystem/allura-plugins.git",
-      "commit": "cd43260b5d45a0415f862caadc9dbf7b3b954514",
-      "version": "0.4.0",
+      "commit": "4715fd390fb3ce26b8e3c4b6618805a6b198d246",
+      "version": "0.4.1",
       "packageDirectory": "allura-cowork",
       "defaultDirectory": "../allura-persona-release-20261018",
       "mappings": [
