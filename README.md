@@ -1,9 +1,39 @@
 # Team RAM + Team Durham for Hermes
 
-Native Hermes plugin **1.3.0**: 17 public role definitions and 88 namespaced
-skills, using the active conversation's model, context and tools. Two entry
-workflows bring the total to 90 registered skills. RAM has ten public personas
-and ten public skills; Durham has seven specialist roles and 77 skills.
+Use engineering and brand specialists in your current Hermes conversation.
+
+This native plugin loads RAM and Durham role guidance, task skills, and the shared Allura chat menu. The active host supplies the model, context, tools, and permissions. Choose RAM for software delivery or Durham for brand strategy, copy, and production.
+
+Version `1.3.0` bundles 17 public role definitions and 90 registered skills: ten RAM skills, 77 Durham skills, one shared Cowork menu, and two entry workflows. These are available definitions, not counts of running agents.
+
+## Install
+
+Version `1.3.0` is available from the default `main` branch. Its immutable
+source pins remain recorded in `source-locks.json`.
+
+Clone `main` and review its commit and files first:
+
+```bash
+git clone --branch main --single-branch \
+  https://github.com/Allura-Ecosystem/hermes-team-ram-durham.git \
+  ./hermes-team-ram-durham
+```
+
+For that reviewed, committed local checkout, the current Hermes CLI accepts a
+Git file URL. From its parent directory:
+
+```bash
+reviewed_checkout="$PWD/hermes-team-ram-durham"
+hermes plugins install "file://$reviewed_checkout" --no-enable
+hermes plugins enable team-ram-durham
+```
+
+The installer clones the local repository's committed HEAD; it does not include
+uncommitted edits. A URL fragment selects a plugin subdirectory, not a branch.
+Validate in a staging Hermes home first. Retain an existing installation as a
+rollback copy before replacing it. Do not use `--force` on a modified installation
+without reviewing and preserving those changes. Restart Hermes after replacing
+plugin files.
 
 ## Use
 
@@ -46,31 +76,6 @@ Registered plugin skills are opt-in `skill_view` resources, not automatically
 created slash commands. Load only 1–3 relevant skills. Both teams' copies are
 kept separate, including skills with the same name.
 
-## What changed in 1.3.0
-
-- Added the common seven-choice chat interaction from Allura Cowork 0.4.0.
-- Updated RAM 0.6.2 and Durham 0.4.3 owning menu sources, preserving their public
-  skill counts and domain routes under More.
-- Made Council's real delegation dependency and bounded loop stopping rules
-  explicit in native guidance. The adapter itself remains guidance loading.
-
-## Previous refresh in 1.2.0
-
-- Refreshed immutable public sources to Team RAM `0.6.1-persona.20261018` and
-  Durham `0.4.2-persona.20261018`.
-- Exported RAM's ten public skill directories and ten individually allowlisted
-  agent files. Retired internal skills and roles are no longer registered.
-- Reduced Durham's roster to its seven current public role definitions.
-- Registered the compact canonical RAM menu as
-  `team-ram-durham:ram-allura-menu`. On activation or menu/help/MH requests, the
-  active agent displays it in chat and recommends the next applicable step.
-  These menu choices route to skills; they do not create new slash commands.
-- Retained native Hermes skill-file registration, conversation command injection,
-  and separate team tenant scopes. The memory provider remains a separate plugin.
-
-The refresh uses committed source objects only; local source edits are excluded.
-No live-model latency, cost or quality improvement has been measured.
-
 ## Memory and authority
 
 This is a standalone team plugin, separate from the Allura Brain memory provider.
@@ -92,35 +97,6 @@ their resources to this bundle and requires actual host schemas. Personas and
 skills are instructions, **not enforced per-role tool sandboxes**. Read-only
 reviewers must report findings; where enforced isolation is required, use a
 host-supported restricted context or report the missing capability.
-
-## Install
-
-Version `1.3.0` is available from the default `main` branch. Its immutable
-source pins remain recorded in `source-locks.json`.
-
-Clone `main` and review its commit and files first:
-
-```bash
-git clone --branch main --single-branch \
-  https://github.com/Allura-Ecosystem/hermes-team-ram-durham.git \
-  ./hermes-team-ram-durham
-```
-
-For that reviewed, committed local checkout, the current Hermes CLI accepts a
-Git file URL. From its parent directory:
-
-```bash
-reviewed_checkout="$PWD/hermes-team-ram-durham"
-hermes plugins install "file://$reviewed_checkout" --no-enable
-hermes plugins enable team-ram-durham
-```
-
-The installer clones the local repository's committed HEAD; it does not include
-uncommitted edits. A URL fragment selects a plugin subdirectory, not a branch.
-Validate in a staging Hermes home first. Retain an existing installation as a
-rollback copy before replacing it. Do not use `--force` on a modified installation
-without reviewing and preserving those changes. Restart Hermes after replacing
-plugin files.
 
 ## Setup and Doctor in Hermes
 
@@ -144,7 +120,7 @@ health. Setup explains any missing capability using this same diagnostic.
 
 ## Canonical sources and updates
 
-`source-locks.json` pins both standalone repositories. `agents/`, `skills/` and
+`source-locks.json` pins RAM, Durham, and the Allura Cowork menu source. `agents/`, `skills/` and
 `policies/` are generated; edit team behavior in its canonical repository.
 `SOURCE_PROVENANCE.json` records each exported path, source blob and SHA-256.
 
@@ -153,8 +129,9 @@ python3 scripts/sync_sources.py --check
 python3 scripts/sync_sources.py --sync
 ```
 
-Default source checkouts are adjacent `../allura-team-ram` and `../team-durham`.
-Use `--ram-source /path/to/repo --durham-source /path/to/repo` to override paths.
+Default local checkout paths come from each source's `defaultDirectory` in
+`source-locks.json`. Use `--ram-source /path/to/repo`,
+`--durham-source /path/to/repo`, and `--cowork-source /path/to/repo` to override them.
 Only committed Git objects at the pins are read; dirty worktrees are ignored.
 Origins, versions, export roots and links are validated. Sync does not fetch,
 install, alter runtime configuration, or write to Allura Brain. Only the current
@@ -178,11 +155,54 @@ Official SDK reference: [Hermes plugin documentation](https://github.com/NousRes
 
 ## Chat menu
 
-Activation and an explicit menu request show the shared Allura choices: Next
-steps, Help with a prompt, Council, Work, Loop, Validate and More. Clear tasks
-execute directly. The bundled `cowork-allura-menu` skill is exported from an
+Activation and an explicit menu request show the shared Allura choices:
+
+| Choice | Purpose |
+|---|---|
+| Next steps | Recommend the next useful action |
+| Help with a prompt | Turn an idea into a usable request |
+| Council | Examine one decision with actual available specialists |
+| Work | Carry out the authorized task |
+| Loop | Work, check, and improve within an agreed limit |
+| Validate | Compare results with criteria and evidence |
+| More | Find additional installed workflows, Setup, or Doctor |
+
+Clear tasks proceed directly. The bundled `cowork-allura-menu` skill is exported from an
 immutable Allura Cowork source pin and needs no extra plugin installation.
 Prompt help and bounded improvement loops work in the active conversation.
 Council depends on the host's actual delegation capability; loading multiple
 personas with `allura_team` does not execute independent specialists. Missing
 delegation yields an explicit limitation and a proposed Council brief.
+
+## Release history
+
+<details>
+<summary>Menu and source refreshes</summary>
+
+### Version 1.3.0
+
+- Added the common seven-choice chat interaction from Allura Cowork 0.4.0.
+- Updated RAM 0.6.2 and Durham 0.4.3 owning menu sources, preserving their public
+  skill counts and domain routes under More.
+- Made Council's real delegation dependency and bounded loop stopping rules
+  explicit in native guidance. The adapter itself remains guidance loading.
+
+### Previous refresh: 1.2.0
+
+- Refreshed immutable public sources to Team RAM `0.6.1-persona.20261018` and
+  Durham `0.4.2-persona.20261018`.
+- Exported RAM's ten public skill directories and ten individually allowlisted
+  agent files. Retired internal skills and roles are no longer registered.
+- Reduced Durham's roster to its seven current public role definitions.
+- Registered the compact canonical RAM menu as
+  `team-ram-durham:ram-allura-menu`. On activation or menu/help/MH requests, the
+  active agent displays it in chat and recommends the next applicable step.
+  These menu choices route to skills; they do not create new slash commands.
+- Retained native Hermes skill-file registration, conversation command injection,
+  and separate team tenant scopes. The memory provider remains a separate plugin.
+
+The refresh uses committed source objects only; local source edits are excluded.
+No live-model latency, cost or quality improvement has been measured.
+
+
+</details>
